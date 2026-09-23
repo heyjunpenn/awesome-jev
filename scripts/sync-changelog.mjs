@@ -16,7 +16,7 @@ const entries = categoryHeadings.flatMap((heading, categoryIndex) => {
   const headingEnd = start + heading[0].length;
   const nextHeadingOffset = markdown.slice(headingEnd).search(/^### /m);
   const end = nextHeadingOffset === -1 ? markdown.length : headingEnd + nextHeadingOffset;
-  return markdown.slice(start, end).split('\n')
+  return markdown.slice(start, end).split(/\r?\n/)
     .filter((line) => line.startsWith('| [') && line.includes('https://github.com/'))
     .map((line) => {
       const cells = line.slice(1, -1).split('|').map((cell) => cell.trim());
@@ -63,7 +63,7 @@ for (const [date, dayEntries] of days) {
 
 const generated = `${lines.join('\n').trim()}\n`;
 if (check) {
-  const current = readFileSync(outputPath, 'utf8');
+  const current = readFileSync(outputPath, 'utf8').replace(/\r\n/g, '\n');
   if (current !== generated) {
     console.error('CHANGELOG.md is out of date. Run npm run sync:changelog.');
     process.exit(1);

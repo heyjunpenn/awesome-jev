@@ -28,7 +28,7 @@ function parse(markdown: string): ParsedCategory[] {
     const headingEnd = start + heading[0].length;
     const nextHeadingOffset = markdown.slice(headingEnd).search(/^### /m);
     const end = nextHeadingOffset === -1 ? markdown.length : headingEnd + nextHeadingOffset;
-    const rows = markdown.slice(start, end).split('\n')
+    const rows = markdown.slice(start, end).split(/\r?\n/)
       .filter((line) => line.startsWith('| [') && line.includes('https://github.com/'))
       .map((line) => {
         const cells = line.slice(1, -1).split('|').map((cell) => cell.trim());
