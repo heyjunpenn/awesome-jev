@@ -37,7 +37,7 @@ Awesome Jev 是一份由社区独立维护、以公开依据为基础的项目�
 - 📦 [SDK 与客户端](#sdk-与客户端-53) — **53**
 - 🧠 [Jev-like 模型](#jev-like-models) — **43**
 - 🧩 [框架与集成](#框架与集成-67) — **67**
-- 🤖 [Agent 工具](#agent-工具-210) — **210**
+- 🤖 [Agent 工具](#agent-工具-211) — **211**
 - 🖥️ [浏览器与计算机操作](#浏览器与计算机操作-70) — **70**
 - 🪟 [应用](#应用-111) — **111**
 - 🎮 [游戏与模拟](#游戏与模拟-67) — **67**
@@ -256,7 +256,7 @@ Awesome Jev 是一份由社区独立维护、以公开依据为基础的项目�
 | [pytest-jev](https://github.com/allebee/pytest-jev) | ★ 0 | Python | 2026-09-22 | pytest 的语义断言：测试您的 LLM 应用程序的输出含义，由 TypeSafe 的 Jev 判断。 |
 | [openclaw-typesafe-ai](https://github.com/Olli0103/openclaw-typesafe-ai) | ★ 0 | TypeScript | 2026-09-22 | OpenClaw 的可选类型 TypeSafe AI Jev 决策，具有 SecretRef 凭证和严格的 API 验证。 |
 
-### Agent 工具 （210）
+### Agent 工具 （211）
 
 | 项目名 | Stars | 语言 | 收录时间 | 描述 |
 |---|---:|---|---|---|
@@ -442,6 +442,7 @@ Awesome Jev 是一份由社区独立维护、以公开依据为基础的项目�
 | [dsh-jev-verify](https://github.com/xienda/dsh-jev-verify) | ★ 1 | JavaScript | 2026-09-22 | Jev (TypeSafe System One) 决策工具 + DeepSeek Harness 的实时验证基准：jev_decision (choice/score/noul) 和 jev_verify，设计诚实。 |
 | [jevonian](https://github.com/xinyao27/jevonian) | ★ 1 | TypeScript | 2026-09-22 | 本地模型路由代理，Jev 选择模型路由和推理深度，并判断哪些工具历史可以被压缩。 |
 | [jev-routed-agent](https://github.com/liuhongrui087-art/jev-routed-agent) | ★ 1 | Python | 2026-09-23 | 基于 LangChain 与 Flask 的 Agent；Jev 在知识、计算器、天气和闲聊路线中选择，并以本地规则兜底。 |
+| [Codex Jev Router](https://github.com/suenot/codex-jev-router) | ★ 1 | JavaScript | 2026-09-24 | Jev 用 Choice 与 Noul 判断简短任务摘要，按本地置信度规则为 Codex 子代理选择模型与推理档位，无法判断时回退到 Sol。 |
 | [pi-agent-foreman](https://github.com/alexshpunt/pi-agent-foreman) | ★ 0 | TypeScript | 2026-09-19 | 当 Pi Agent 在任务完成前停止时，将其送回继续工作。 |
 | [switchboard](https://github.com/aniruddh-krovvidi/switchboard) | ★ 0 | Python | 2026-09-19 | 基于 TypeSafe Jev 的 LLM 网关护栏与模型路由器，附带独立准确率、校准度和延迟评测；使用 Python 标准库。 |
 | [typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) | ★ 0 | TypeScript | 2026-09-19 | 将 TypeSafe System One 判断（Noul、Choice、Score）暴露为 Agent 工具的 MCP 服务器。 |

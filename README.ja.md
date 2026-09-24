@@ -37,7 +37,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 - 📦 [SDK & クライアント](#sdk-クライアント-53) — **53**
 - 🧠 [Jev-likeモデル](#jev-like-models) — **43**
 - 🧩 [フレームワークと統合](#フレームワークと統合-67) — **67**
-- 🤖 [エージェントツーリング](#エージェントツーリング-210) — **210**
+- 🤖 [エージェントツーリング](#エージェントツーリング-211) — **211**
 - 🖥️ [ブラウザとコンピュータの使用](#ブラウザとコンピュータの使用-70) — **70**
 - 🪟 [アプリケーション](#アプリケーション-111) — **111**
 - 🎮 [ゲームとシミュレーション](#ゲームシミュレーション-67) — **67**
@@ -256,7 +256,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [pytest-jev](https://github.com/allebee/pytest-jev) | ★ 0 | Python | 2026-09-22 | pytest のセマンティック アサーション: TypeSafe の Jev によって判断された、LLM アプリの出力の意味をテストします。 |
 | [openclaw-typesafe-ai](https://github.com/Olli0103/openclaw-typesafe-ai) | ★ 0 | TypeScript | 2026-09-22 | OpenClaw 用のオプションの型付き TypeSafe AI Jev 決定 (SecretRef 資格情報と厳格な API 検証を使用)。 |
 
-### エージェントツーリング (210)
+### エージェントツーリング (211)
 
 | プロジェクト | Stars | 言語 | 収録日 | 説明 |
 |---|---:|---|---|---|
@@ -442,6 +442,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [dsh-jev-verify](https://github.com/xienda/dsh-jev-verify) | ★ 1 | JavaScript | 2026-09-22 | Jev (TypeSafe System One) 意思決定ツール + DeepSeek Harness のライブ検証ベンチマーク: jev_decion (choice/score/noul) および jev_verify、正直な設計。 |
 | [jevonian](https://github.com/xinyao27/jevonian) | ★ 1 | TypeScript | 2026-09-22 | Jev がモデル ルートと推論の深さを選択し、どのツール履歴を圧縮できるかを判断するローカル モデル ルーティング プロキシ。 |
 | [jev-routed-agent](https://github.com/liuhongrui087-art/jev-routed-agent) | ★ 1 | Python | 2026-09-23 | Jevが知識、計算、天気、会話の経路を選ぶLangChain・Flaskエージェント。ローカルルールのフォールバック付き。 |
+| [Codex Jev Router](https://github.com/suenot/codex-jev-router) | ★ 1 | JavaScript | 2026-09-24 | 短いタスク概要に対する Jev の Choice と Noul の判定を使い、信頼度の条件に従って Codex のサブエージェントのモデルと推論レベルを選び、判定できない場合は Sol に戻す。 |
 | [pi-agent-foreman](https://github.com/alexshpunt/pi-agent-foreman) | ★ 0 | TypeScript | 2026-09-19 | お問い合わせ ジョブが終了する前に停止したときに、Piエージェントが作業に戻ります。 |
 | [switchboard](https://github.com/aniruddh-krovvidi/switchboard) | ★ 0 | Python | 2026-09-19 | TypeSafeのJev(System Oneモデル)のLLMゲートウェイ用のガードレール+モデルルータ、独立した精度/キャリブレーション/レイテンシ評価。 Stdlib の Python. |
 | [typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) | ★ 0 | TypeScript | 2026-09-19 | TypeSafeシステムを公開するMCPサーバー エージェントツールとしての1つの判断(ノール、選択、スコア)。 |

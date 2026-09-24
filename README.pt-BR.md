@@ -37,7 +37,7 @@ Awesome Jev é um catálogo independente, mantido pela comunidade de **834 proje
 - 📦 [SDKs & clientes](#sdks-clientes-53) — **53**
 - 🧠 [Modelos Jev-like](#jev-like-models) — **43**
 - 🧩 [Quadros e integrações](#quadros-e-integrações-67) — **67**
-- 🤖 [Ferramentas de agente](#ferramentas-de-agente-210) — **210**
+- 🤖 [Ferramentas de agente](#ferramentas-de-agente-211) — **211**
 - 🖥️ [Navegador & uso do computador](#navegador-uso-do-computador-70) — **70**
 - 🪟 [Aplicações](#aplicações-111) — **111**
 - 🎮 [Jogos e simulações](#jogos-e-simulações-67) — **67**
@@ -256,7 +256,7 @@ Este README é um instantâneo datado de **834 repositórios públicos únicos d
 | [pytest-jev](https://github.com/allebee/pytest-jev) | ★ 0 | Python | 2026-09-22 | Asserções semânticas para pytest: teste o que significa a saída do seu aplicativo LLM, julgada por Jev da TypeSafe. |
 | [openclaw-typesafe-ai](https://github.com/Olli0103/openclaw-typesafe-ai) | ★ 0 | TypeScript | 2026-09-22 | Decisões TypeSafe AI Jev digitadas opcionais para OpenClaw, com credenciais SecretRef e validação de API estrita. |
 
-### Ferramentas de agente (210)
+### Ferramentas de agente (211)
 
 | Projeto | Stars | Linguagem | Adicionado | Descrição |
 |---|---:|---|---|---|
@@ -442,6 +442,7 @@ Este README é um instantâneo datado de **834 repositórios públicos únicos d
 | [dsh-jev-verify](https://github.com/xienda/dsh-jev-verify) | ★ 1 | JavaScript | 2026-09-22 | Ferramentas de decisão Jev (TypeSafe System One) + benchmark de verificação ao vivo para DeepSeek Harness: jev_decision (choice/score/noul) e jev_verify, honesto por design. |
 | [jevonian](https://github.com/xinyao27/jevonian) | ★ 1 | TypeScript | 2026-09-22 | Proxy de roteamento de modelo local onde Jev seleciona a rota do modelo e a profundidade do raciocínio, e também julga qual histórico de ferramenta pode ser compactado. |
 | [jev-routed-agent](https://github.com/liuhongrui087-art/jev-routed-agent) | ★ 1 | Python | 2026-09-23 | Agente LangChain e Flask em que Jev escolhe entre conhecimento, calculadora, clima e conversa, com fallback por regras locais. |
+| [Codex Jev Router](https://github.com/suenot/codex-jev-router) | ★ 1 | JavaScript | 2026-09-24 | Usa decisões Choice e Noul do Jev sobre um resumo curto para escolher o modelo e o nível de raciocínio dos subagentes do Codex, com limiares de confiança e retorno ao Sol. |
 | [pi-agent-foreman](https://github.com/alexshpunt/pi-agent-foreman) | ★ 0 | TypeScript | 2026-09-19 | Enviar Os agentes Pi voltam ao trabalho quando param antes do trabalho terminar. |
 | [switchboard](https://github.com/aniruddh-krovvidi/switchboard) | ★ 0 | Python | 2026-09-19 | Guardrail + roteador modelo para gateways LLM no modelo Jev do TypeSafe (System One), com uma avaliação independente da precisão/calibração/latency. Stdlib Python. |
 | [typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) | ★ 0 | TypeScript | 2026-09-19 | Servidor MCP expondo TypeSafe System Um julgamento (noul, escolha, pontuação) como ferramentas de agente. |

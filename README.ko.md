@@ -37,7 +37,7 @@
 - 📦 [SDK 및 클라이언트](#sdk-및-클라이언트-53) — **53**
 - 🧠 [Jev-like 모델](#jev-like-models) — **43**
 - 🧩 [프레임워크 및 통합](#frameworks-및-통합-67) — **67**
-- 🤖 [에이전트 도구](#에이전트-툴링-210) — **210**
+- 🤖 [에이전트 도구](#에이전트-툴링-211) — **211**
 - 🖥️ [브라우저 및 컴퓨터 사용](#브라우저-및-컴퓨터-사용-70) — **70**
 - 🪟 [애플리케이션](#애플리케이션-111) — **111**
 - 🎮 [게임 및 시뮬레이션](#게임-및-시뮬레이션-67) — **67**
@@ -256,7 +256,7 @@
 | [pytest-jev](https://github.com/allebee/pytest-jev) | ★ 0 | Python | 2026-09-22 | pytest에 대한 의미론적 어설션: TypeSafe의 Jev가 판단하여 LLM 앱의 출력이 무엇을 의미하는지 테스트합니다. |
 | [openclaw-typesafe-ai](https://github.com/Olli0103/openclaw-typesafe-ai) | ★ 0 | TypeScript | 2026-09-22 | SecretRef 자격 증명 및 엄격한 API 검증을 통해 OpenClaw에 대한 선택적 유형의 TypeSafe AI Jev 결정. |
 
-### 에이전트 툴링 (210)
+### 에이전트 툴링 (211)
 
 | 프로젝트 | Stars | 언어 | 등록일 | 설명 |
 |---|---:|---|---|---|
@@ -442,6 +442,7 @@
 | [dsh-jev-verify](https://github.com/xienda/dsh-jev-verify) | ★ 1 | JavaScript | 2026-09-22 | Jev(TypeSafe System One) 결정 도구 + DeepSeek Harness용 실시간 검증 벤치마크: jev_decision(선택/점수/noul) 및 jev_verify, 정직하게 설계되었습니다. |
 | [jevonian](https://github.com/xinyao27/jevonian) | ★ 1 | TypeScript | 2026-09-22 | Jev가 모델 경로와 추론 깊이를 선택하고 어떤 도구 기록을 압축할 수 있는지 판단하는 로컬 모델 라우팅 프록시입니다. |
 | [jev-routed-agent](https://github.com/liuhongrui087-art/jev-routed-agent) | ★ 1 | Python | 2026-09-23 | Jev가 지식, 계산기, 날씨, 대화 경로를 선택하는 LangChain·Flask 에이전트이며 로컬 규칙 폴백을 제공합니다. |
+| [Codex Jev Router](https://github.com/suenot/codex-jev-router) | ★ 1 | JavaScript | 2026-09-24 | 짧은 작업 요약에 대한 Jev Choice 및 Noul 판단을 바탕으로 신뢰도 규칙에 따라 Codex 하위 에이전트의 모델과 추론 수준을 선택하고, 판단이 불확실하면 Sol로 되돌립니다. |
 | [pi-agent-foreman](https://github.com/alexshpunt/pi-agent-foreman) | ★ 0 | TypeScript | 2026-09-19 | 이름 * 작업이 완료되기 전에 중지 할 때 Pi Agent 다시. |
 | [switchboard](https://github.com/aniruddh-krovvidi/switchboard) | ★ 0 | Python | 2026-09-19 | TypeSafe의 Jev (System One model)에 LLM 게이트웨이를 위한 Guardrail + 모델 라우터는 독립적 인 정확도/카리브레이션/latency 평가를 제공합니다. Stdlib 파이썬. |
 | [typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) | ★ 0 | TypeScript | 2026-09-19 | MCP 서버 exposing TypeSafe 시스템 한 판단 (noul, 선택, 점수) 에이전트 도구로. |
