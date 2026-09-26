@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 916 verified open-source projects across 11 categories" width="100%"></a>
+  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 917 verified open-source projects across 11 categories" width="100%"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/verified_projects-916-1e63ff?style=flat-square" alt="916 verified projects">
+  <img src="https://img.shields.io/badge/verified_projects-917-1e63ff?style=flat-square" alt="917 verified projects">
   <img src="https://img.shields.io/badge/categories-11-111111?style=flat-square" alt="11 categories">
   <img src="https://img.shields.io/badge/languages-27-676767?style=flat-square" alt="27 languages">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1e63ff?style=flat-square" alt="License: MIT"></a>
@@ -25,7 +25,7 @@
 
 ## About Awesome Jev
 
-Awesome Jev is an independent, community-maintained catalog of **916 open-source projects** built with [Jev](https://typesafe.ai/), TypeSafe AI's System One model for typed decisions inside software. It is not affiliated with or endorsed by TypeSafe AI.
+Awesome Jev is an independent, community-maintained catalog of **917 open-source projects** built with [Jev](https://typesafe.ai/), TypeSafe AI's System One model for typed decisions inside software. It is not affiliated with or endorsed by TypeSafe AI.
 
 > **What makes this catalog useful?**
 >
@@ -36,7 +36,7 @@ Awesome Jev is an independent, community-maintained catalog of **916 open-source
 - ✅ [Official](#official-6) — **6**
 - 📦 [SDKs & clients](#sdks-clients-55) — **55**
 - 🧠 [Jev-like models](#jev-like-models) — **65**
-- 🧩 [Frameworks & integrations](#frameworks-integrations-77) — **77**
+- 🧩 [Frameworks & integrations](#frameworks-integrations-78) — **78**
 - 🤖 [Agent tooling](#agent-tooling-223) — **223**
 - 🖥️ [Browser & computer use](#browser-computer-use-75) — **75**
 - 🪟 [Applications](#applications-128) — **128**
@@ -45,7 +45,7 @@ Awesome Jev is an independent, community-maintained catalog of **916 open-source
 - 📊 [Benchmarks & research](#benchmarks-research-114) — **114**
 - 📚 [Other lists](#other-lists-39) — **39**
 
-This README is a dated snapshot of **916 unique public GitHub repositories**. Stars were captured on **2026-09-18–25** for discovery, not ranking; verify current behavior, activity, and licensing upstream.
+This README is a dated snapshot of **917 unique public GitHub repositories**. Stars were captured on **2026-09-18–25** for discovery, not ranking; verify current behavior, activity, and licensing upstream.
 
 ## Added today
 
@@ -205,7 +205,7 @@ This README is a dated snapshot of **916 unique public GitHub repositories**. St
 | [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) | ★ 1 | Python | 2026-09-23 | Independent DiffusionGemma and SGLang typed-decision server for text and images, with a drawing playground and public evaluation artifacts. |
 | [Verdict](https://github.com/Manavarya09/verdict) | ★ 0 | Python | 2026-09-25 | Independent multilingual decision model with calibrated answers, abstention, and a Jev-compatible API. |
 
-### Frameworks & integrations (77)
+### Frameworks & integrations (78)
 
 | Project | Stars | Language | Added | Description |
 |---|---:|---|---|---|
@@ -286,6 +286,7 @@ This README is a dated snapshot of **916 unique public GitHub repositories**. St
 | [pytest-jev](https://github.com/allebee/pytest-jev) | ★ 0 | Python | 2026-09-22 | Semantic assertions for pytest: test what your LLM app's output means, judged by TypeSafe's Jev. |
 | [openclaw-typesafe-ai](https://github.com/Olli0103/openclaw-typesafe-ai) | ★ 0 | TypeScript | 2026-09-22 | Optional typed TypeSafe AI Jev decisions for OpenClaw, with SecretRef credentials and strict API validation. |
 | [jev-switch](https://github.com/ARCJ137442/jev-switch) | ★ 0 | Rust | 2026-09-24 | Local multi-upstream router for the Jev protocol with a Rust backend and React interface. |
+| [Yueli DEX](https://github.com/haxitag/Yueli-Dex) | ★ 0 | TypeScript | 2026-09-26 | Choice-only decision framework for agents: a local rule engine short-circuits or rejects rule-able policy with zero remote calls; unresolved cases are compiled from 16 scenario templates into a Choice request and routed across TypeSafe, Cloudflare, Vercel or a self-hosted host, where Jev selects the bounded option. Answers map to auditable ActionIntents that the caller executes. |
 
 ### Agent tooling (223)
 
