@@ -215,6 +215,7 @@ This README is a dated snapshot of **944 unique public GitHub repositories**. St
 | [TinyJev](https://github.com/ankit-aglawe/tinyjev) | ★ 3 | Python | 2026-09-23 | Local 596M typed-decision model with its own weights, Choice, Score, and Noul support, and a Jev-compatible System One endpoint. |
 | [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) | ★ 1 | Python | 2026-09-23 | Independent DiffusionGemma and SGLang typed-decision server for text and images, with a drawing playground and public evaluation artifacts. |
 | [Verdict](https://github.com/Manavarya09/verdict) | ★ 0 | Python | 2026-09-25 | Independent multilingual decision model with calibrated answers, abstention, and a Jev-compatible API. |
+| [NeoHorse-Jev](https://github.com/TokenRhythm/NeoHorse) | ★ 1,173 | Python | 2026-09-28 | Apache-2.0 4B open-weight decision model from TokenRhythm (built on NeoHorse-1-4B) answering Choice, Noul and Score via prefill-only inference; runs on vLLM/SGLang or native Python/CLI/HTTP runtime; reports 77.70 across six text benchmark groups, highest among open-weight entries with complete results in its published comparison. |
 
 ### Frameworks & integrations (82)
 
