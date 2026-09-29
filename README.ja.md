@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 944 verified open-source projects across 11 categories" width="100%"></a>
+  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 945 verified open-source projects across 11 categories" width="100%"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/verified_projects-944-1e63ff?style=flat-square" alt="944 verified projects">
+  <img src="https://img.shields.io/badge/verified_projects-945-1e63ff?style=flat-square" alt="945 verified projects">
   <img src="https://img.shields.io/badge/categories-11-111111?style=flat-square" alt="11 categories">
   <img src="https://img.shields.io/badge/languages-27-676767?style=flat-square" alt="27 languages">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1e63ff?style=flat-square" alt="License: MIT"></a>
@@ -25,7 +25,7 @@
 
 ## Awesome Jevについて
 
-Awesome Jevは独立したコミュニティ維持されたカタログです **944 オープンソースプロジェクト** 組み込み [ジェヴ](https://typesafe.ai/)、タイプ安全AIのシステム ソフトウェア内部の決定を一式化するためのモデル。 TypeSafe AIに所属、または支持されることはありません。
+Awesome Jevは独立したコミュニティ維持されたカタログです **945 オープンソースプロジェクト** 組み込み [ジェヴ](https://typesafe.ai/)、タイプ安全AIのシステム ソフトウェア内部の決定を一式化するためのモデル。 TypeSafe AIに所属、または支持されることはありません。
 
 > **このカタログは役に立ちますか?**
 >
@@ -34,7 +34,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 ## コンテンツ
 
 - ✅ [公式](#公式hp-6) — **6**
-- 📦 [SDK & クライアント](#sdk-クライアント-57) — **57**
+- 📦 [SDK & クライアント](#sdk-クライアント-58) — **58**
 - 🧠 [Jev-likeモデル](#jev-like-models) — **72**
 - 🧩 [フレームワークと統合](#フレームワークと統合-82) — **82**
 - 🤖 [エージェントツーリング](#エージェントツーリング-228) — **228**
@@ -45,9 +45,16 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 - 📊 [ベンチマーク & 研究](#ベンチマーク-研究-116) — **116**
 - 📚 [その他のリスト](#その他のリスト-41) — **41**
 
-このREADMEは日付スナップショットです **944 独自の公開 GitHub リポジトリ**お問い合わせ 星が撮影されました **2026年9月18日～28日** 発見のため、ランキングではなく、現在の行動、活動、ライセンスアップストリームを検証します。
+このREADMEは日付スナップショットです **945 独自の公開 GitHub リポジトリ**お問い合わせ 星が撮影されました **2026年9月18日～29日** 発見のため、ランキングではなく、現在の行動、活動、ライセンスアップストリームを検証します。
 
 ## 今日追加
+
+<details open>
+<summary><strong>2026年9月29日に1件追加</strong></summary>
+
+- **SDK & クライアント (1):** [Jev](https://github.com/dfinke/Jev)
+
+</details>
 
 <details open>
 <summary><strong>2026年9月28日に追加された28件</strong></summary>
@@ -75,7 +82,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [TypeSafe Daggerverse](https://github.com/typesafe-ai/daggerverse) | ★ 12 | Python | 2026-09-20 | TypeSafe AI および System One ワークフロー用の再利用可能な Dagger モジュールの公式コレクション。 |
 | [TypeSafe Overwatch](https://github.com/typesafe-ai/Overwatch) | ★ 4 | Python | 2026-09-20 | システムワンのワークフローを観察し評価するための公式ツール。 |
 
-### SDK & クライアント (57)
+### SDK & クライアント (58)
 
 | プロジェクト | Stars | 言語 | 収録日 | 説明 |
 |---|---:|---|---|---|
@@ -136,6 +143,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [typesafe-sdk-go](https://github.com/valksor/typesafe-sdk-go) | ★ 0 | Go | 2026-09-19 | TypeSafe AIシステム用の非公式Go SDK 1つのAPI — 1:1の正式JSとPython SDKの解析 TypeSafe AIと提携していません。 |
 | [typesafe-sdk-php](https://github.com/valksor/typesafe-sdk-php) | ★ 0 | PHP | 2026-09-19 | TypeSafe AIシステム用の非公式のPHP SDK 1つのAPI — 1:1の正式JSとPython SDKの解析 TypeSafe AIと提携していません。 |
 | [typesafe-go](https://github.com/Shubham510/typesafe-go) | ★ 0 | Go | 2026-09-22 | TypeSafe AI の System One API (Jev) 用の非公式 Go SDK。 |
+| [Jev](https://github.com/dfinke/Jev) | ★ 8 | PowerShell | 2026-09-29 | JevのNoul、Choice、Score質問を作成し、名前付きの回答をPowerShellパイプラインで扱いやすいプロパティとして返すPowerShellモジュール。 |
 
 <a id="jev-like-models"></a>
 

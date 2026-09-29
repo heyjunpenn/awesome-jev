@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 944 verified open-source projects across 11 categories" width="100%"></a>
+  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 945 verified open-source projects across 11 categories" width="100%"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/verified_projects-944-1e63ff?style=flat-square" alt="944 verified projects">
+  <img src="https://img.shields.io/badge/verified_projects-945-1e63ff?style=flat-square" alt="945 verified projects">
   <img src="https://img.shields.io/badge/categories-11-111111?style=flat-square" alt="11 categories">
   <img src="https://img.shields.io/badge/languages-27-676767?style=flat-square" alt="27 languages">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1e63ff?style=flat-square" alt="License: MIT"></a>
@@ -25,7 +25,7 @@
 
 ## 최고 Jev
 
-최고 Jev는 독립적 인 커뮤니티 기반 카탈로그입니다. **944 오픈 소스 프로젝트** 내장형 [뚱 베어](https://typesafe.ai/)TypeSafe AI 시스템 소프트웨어 내부 결정을위한 하나의 모델. TypeSafe AI에 의해 제휴 또는 승인되지 않습니다.
+최고 Jev는 독립적 인 커뮤니티 기반 카탈로그입니다. **945 오픈 소스 프로젝트** 내장형 [뚱 베어](https://typesafe.ai/)TypeSafe AI 시스템 소프트웨어 내부 결정을위한 하나의 모델. TypeSafe AI에 의해 제휴 또는 승인되지 않습니다.
 
 > **이 카탈로그는 유용합니까?**
 >
@@ -34,7 +34,7 @@
 ## 이름 *
 
 - ✅ [공식](#공식-6) — **6**
-- 📦 [SDK 및 클라이언트](#sdk-및-클라이언트-57) — **57**
+- 📦 [SDK 및 클라이언트](#sdk-및-클라이언트-58) — **58**
 - 🧠 [Jev-like 모델](#jev-like-models) — **72**
 - 🧩 [프레임워크 및 통합](#frameworks-및-통합-82) — **82**
 - 🤖 [에이전트 도구](#에이전트-툴링-228) — **228**
@@ -45,9 +45,16 @@
 - 📊 [벤치마크 및 연구](#벤치-마크-연구-116) — **116**
 - 📚 [기타 목록](#기타-목록-41) — **41**
 
-이 README는 날짜 스냅 샷입니다. **944 고유의 공개 GitHub 저장소**· 별이 캡처되었습니다. **2026-09-18–28** 발견을 위해, 순위가 아닙니다; 현재 행동, 활동 및 라이센스 업스트림을 확인합니다.
+이 README는 날짜 스냅 샷입니다. **945 고유의 공개 GitHub 저장소**· 별이 캡처되었습니다. **2026-09-18–29** 발견을 위해, 순위가 아닙니다; 현재 행동, 활동 및 라이센스 업스트림을 확인합니다.
 
 ## 오늘 추가
+
+<details open>
+<summary><strong>2026년 9월 29일 프로젝트 1개 추가</strong></summary>
+
+- **SDK 및 클라이언트 (1):** [Jev](https://github.com/dfinke/Jev)
+
+</details>
 
 <details open>
 <summary><strong>2026년 9월 28일에 추가된 프로젝트 28개</strong></summary>
@@ -75,7 +82,7 @@
 | [TypeSafe Daggerverse](https://github.com/typesafe-ai/daggerverse) | ★ 12 | Python | 2026-09-20 | TypeSafe AI 및 System One 워크플로우를 위한 재사용 가능한 Dagger 모듈의 공식 컬렉션. |
 | [TypeSafe Overwatch](https://github.com/typesafe-ai/Overwatch) | ★ 4 | Python | 2026-09-20 | 관찰 및 평가 시스템 One 워크플로우에 대한 공식 툴링. |
 
-### SDK 및 클라이언트 (57)
+### SDK 및 클라이언트 (58)
 
 | 프로젝트 | Stars | 언어 | 등록일 | 설명 |
 |---|---:|---|---|---|
@@ -136,6 +143,7 @@
 | [typesafe-sdk-go](https://github.com/valksor/typesafe-sdk-go) | ★ 0 | Go | 2026-09-19 | TypeSafe AI 시스템을 위한 Unofficial Go SDK 1개의 API — 공식 JS와 Python SDK를 가진 1:1 동정. TypeSafe AI와 제휴하지 않습니다. |
 | [typesafe-sdk-php](https://github.com/valksor/typesafe-sdk-php) | ★ 0 | PHP | 2026-09-19 | TypeSafe AI 시스템의 Unofficial PHP SDK 1개의 API — 공식 JS와 Python SDK를 가진 1:1 동정. TypeSafe AI와 제휴하지 않습니다. |
 | [typesafe-go](https://github.com/Shubham510/typesafe-go) | ★ 0 | Go | 2026-09-22 | TypeSafe AI의 System One API(Jev)용 비공식 Go SDK입니다. |
+| [Jev](https://github.com/dfinke/Jev) | ★ 8 | PowerShell | 2026-09-29 | Jev Noul, Choice, Score 질문을 만들고 이름이 지정된 답변을 PowerShell 파이프라인에서 사용할 수 있는 속성으로 반환하는 PowerShell 모듈입니다. |
 
 <a id="jev-like-models"></a>
 

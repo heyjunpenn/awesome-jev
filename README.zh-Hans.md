@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev：11 个分类、944 个经过核验的开源项目" width="100%"></a>
+  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev：11 个分类、945 个经过核验的开源项目" width="100%"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/verified_projects-944-1e63ff?style=flat-square" alt="944 个经过核验的项目">
+  <img src="https://img.shields.io/badge/verified_projects-945-1e63ff?style=flat-square" alt="945 个经过核验的项目">
   <img src="https://img.shields.io/badge/categories-11-111111?style=flat-square" alt="11 个分类">
   <img src="https://img.shields.io/badge/languages-27-676767?style=flat-square" alt="27 种语言">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1e63ff?style=flat-square" alt="许可证：MIT"></a>
@@ -25,7 +25,7 @@
 
 ## 关于 Awesome Jev
 
-Awesome Jev 是一份由社区独立维护、以公开依据为基础的项目目录，收录了 **944 个使用 [Jev](https://typesafe.ai/) 构建的开源项目**。Jev 是 TypeSafe AI 面向软件类型化决策的 System One 模型。本项目与 TypeSafe AI 无隶属关系，也未获得其官方背书。
+Awesome Jev 是一份由社区独立维护、以公开依据为基础的项目目录，收录了 **945 个使用 [Jev](https://typesafe.ai/) 构建的开源项目**。Jev 是 TypeSafe AI 面向软件类型化决策的 System One 模型。本项目与 TypeSafe AI 无隶属关系，也未获得其官方背书。
 
 > **这份目录有什么不同？**
 >
@@ -34,7 +34,7 @@ Awesome Jev 是一份由社区独立维护、以公开依据为基础的项目�
 ## 目录
 
 - ✅ [官方项目](#官方项目-6) — **6**
-- 📦 [SDK 与客户端](#sdk-与客户端-57) — **57**
+- 📦 [SDK 与客户端](#sdk-与客户端-58) — **58**
 - 🧠 [Jev-like 模型](#jev-like-models) — **72**
 - 🧩 [框架与集成](#框架与集成-82) — **82**
 - 🤖 [Agent 工具](#agent-工具-228) — **228**
@@ -45,9 +45,16 @@ Awesome Jev 是一份由社区独立维护、以公开依据为基础的项目�
 - 📊 [基准测试与研究](#基准测试与研究-116) — **116**
 - 📚 [其他列表](#其他列表-41) — **41**
 
-本 README 是一份带日期的完整快照，收录 **944 个公开 GitHub 仓库**。Star 数采集于 **2026 年 9 月 18–28 日**，仅用于帮助发现项目，不代表质量排名；使用前请到原仓库确认实际行为、活跃度和许可证。
+本 README 是一份带日期的完整快照，收录 **945 个公开 GitHub 仓库**。Star 数采集于 **2026 年 9 月 18–29 日**，仅用于帮助发现项目，不代表质量排名；使用前请到原仓库确认实际行为、活跃度和许可证。
 
 ## 今日新增
+
+<details open>
+<summary><strong>2026 年 9 月 29 日新增 1 个项目</strong></summary>
+
+- **SDK 与客户端 (1):** [Jev](https://github.com/dfinke/Jev)
+
+</details>
 
 <details open>
 <summary><strong>2026 年 9 月 28 日新增 28 个项目</strong></summary>
@@ -75,7 +82,7 @@ Awesome Jev 是一份由社区独立维护、以公开依据为基础的项目�
 | [TypeSafe Daggerverse](https://github.com/typesafe-ai/daggerverse) | ★ 12 | Python | 2026-09-20 | TypeSafe AI 官方 Dagger 模块集合，用于复用 TypeSafe AI 与 System One 工作流。 |
 | [TypeSafe Overwatch](https://github.com/typesafe-ai/Overwatch) | ★ 4 | Python | 2026-09-20 | 用于观测和评估 System One 工作流的官方工具。 |
 
-### SDK 与客户端   (57)
+### SDK 与客户端   (58)
 
 | 项目名 | Stars | 语言 | 收录时间 | 描述 |
 |---|---:|---|---|---|
@@ -136,6 +143,7 @@ Awesome Jev 是一份由社区独立维护、以公开依据为基础的项目�
 | [typesafe-sdk-go](https://github.com/valksor/typesafe-sdk-go) | ★ 0 | Go | 2026-09-19 | 非官方 Go SDK，与 TypeSafe AI System One 官方 JS 和 Python SDK 保持 1:1 功能对应；非 TypeSafe AI 官方项目。 |
 | [typesafe-sdk-php](https://github.com/valksor/typesafe-sdk-php) | ★ 0 | PHP | 2026-09-19 | 非官方 PHP SDK，与 TypeSafe AI System One 官方 JS 和 Python SDK 保持 1:1 功能对应；非 TypeSafe AI 官方项目。 |
 | [typesafe-go](https://github.com/Shubham510/typesafe-go) | ★ 0 | Go | 2026-09-22 | 适用于 TypeSafe AI 的 System One API (Jev) 的非官方 Go SDK。 |
+| [Jev](https://github.com/dfinke/Jev) | ★ 8 | PowerShell | 2026-09-29 | PowerShell 模块，用于构建 Jev Noul、Choice 和 Score 问题，并将具名答案作为适合 PowerShell 管道处理的属性返回给脚本。 |
 
 <a id="jev-like-models"></a>
 

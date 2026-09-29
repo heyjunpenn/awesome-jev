@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 944 verified open-source projects across 11 categories" width="100%"></a>
+  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 945 verified open-source projects across 11 categories" width="100%"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/verified_projects-944-1e63ff?style=flat-square" alt="944 verified projects">
+  <img src="https://img.shields.io/badge/verified_projects-945-1e63ff?style=flat-square" alt="945 verified projects">
   <img src="https://img.shields.io/badge/categories-11-111111?style=flat-square" alt="11 categories">
   <img src="https://img.shields.io/badge/languages-27-676767?style=flat-square" alt="27 languages">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1e63ff?style=flat-square" alt="License: MIT"></a>
@@ -25,7 +25,7 @@
 
 ## Acerca de Awesome Jev
 
-Impresionante Jev es un catálogo independiente, mantenido por la comunidad **944 proyectos de código abierto** construido con [Jev](https://typesafe.ai/), sistema de tipoSafe AI Un modelo para decisiones tipo dentro del software. No está afiliada o respaldada por TypeSafe AI.
+Impresionante Jev es un catálogo independiente, mantenido por la comunidad **945 proyectos de código abierto** construido con [Jev](https://typesafe.ai/), sistema de tipoSafe AI Un modelo para decisiones tipo dentro del software. No está afiliada o respaldada por TypeSafe AI.
 
 > **¿Qué hace útil este catálogo?**
 >
@@ -34,7 +34,7 @@ Impresionante Jev es un catálogo independiente, mantenido por la comunidad **94
 ## Índice
 
 - ✅ [Oficial](#oficial-6) — **6**
-- 📦 [SDKs &amp; clientes](#sdks-clientes-57) — **57**
+- 📦 [SDKs &amp; clientes](#sdks-clientes-58) — **58**
 - 🧠 [Modelos Jev-like](#jev-like-models) — **72**
 - 🧩 [Marcos e integraciones](#marcos-e-integraciones-82) — **82**
 - 🤖 [Agente herramienta](#agente-herramienta-228) — **228**
@@ -45,9 +45,16 @@ Impresionante Jev es un catálogo independiente, mantenido por la comunidad **94
 - 📊 [Criterios de investigación](#criterios-de-investigación-116) — **116**
 - 📚 [Otras listas](#otras-listas-41) — **41**
 
-Este README es una instantánea fechada **944 repositorios públicos únicos GitHub**. Las estrellas fueron capturadas **2026-09-18–28** para el descubrimiento, no clasificación; verificar el comportamiento actual, la actividad y la concesión de licencias aguas arriba.
+Este README es una instantánea fechada **945 repositorios públicos únicos GitHub**. Las estrellas fueron capturadas **2026-09-18–29** para el descubrimiento, no clasificación; verificar el comportamiento actual, la actividad y la concesión de licencias aguas arriba.
 
 ## Hoy
+
+<details open>
+<summary><strong>1 proyecto añadido el 29 de septiembre de 2026</strong></summary>
+
+- **SDKs &amp; clientes (1):** [Jev](https://github.com/dfinke/Jev)
+
+</details>
 
 <details open>
 <summary><strong>28 proyectos añadidos el 28 de septiembre de 2026</strong></summary>
@@ -75,7 +82,7 @@ Este README es una instantánea fechada **944 repositorios públicos únicos Git
 | [TypeSafe Daggerverse](https://github.com/typesafe-ai/daggerverse) | ★ 12 | Python | 2026-09-20 | Colección oficial de módulos de Dagger reutilizables para flujos de trabajo TipoSafe AI y System One. |
 | [TypeSafe Overwatch](https://github.com/typesafe-ai/Overwatch) | ★ 4 | Python | 2026-09-20 | Herramientas oficiales para observar y evaluar los flujos de trabajo del Sistema Uno. |
 
-### SDKs &amp; clientes (57)
+### SDKs &amp; clientes (58)
 
 | Proyecto | Stars | Lenguaje | Añadido | Descripción |
 |---|---:|---|---|---|
@@ -136,6 +143,7 @@ Este README es una instantánea fechada **944 repositorios públicos únicos Git
 | [typesafe-sdk-go](https://github.com/valksor/typesafe-sdk-go) | ★ 0 | Go | 2026-09-19 | Unofficial Go SDK for the TypeSafe AI System One API — 1:1 parity with the official JS and Python SDKs. No está afiliado con TipoSafe AI. |
 | [typesafe-sdk-php](https://github.com/valksor/typesafe-sdk-php) | ★ 0 | PHP | 2026-09-19 | SDK PHP no oficial para el sistema de inteligencia tipoSafe One API — 1:1 parity with the official JS and Python SDKs. No está afiliado con TipoSafe AI. |
 | [typesafe-go](https://github.com/Shubham510/typesafe-go) | ★ 0 | Go | 2026-09-22 | SDK Go no oficial para la API System One (Jev) de TypeSafe AI. |
+| [Jev](https://github.com/dfinke/Jev) | ★ 8 | PowerShell | 2026-09-29 | Módulo de PowerShell para crear preguntas Jev Noul, Choice y Score y devolver respuestas con nombre como propiedades listas para canalizaciones de PowerShell. |
 
 <a id="jev-like-models"></a>
 
