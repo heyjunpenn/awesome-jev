@@ -1131,6 +1131,10 @@ Verification labels describe separate facts. They are not a score or ranking.
 | [Models](https://docs.typesafe.ai/models) | Current aliases, versions, pricing, and limits. |
 | [Workflow evaluations](https://evals.typesafe.ai/) | TypeSafe's published workflow methodology and results. |
 
+## Independent research and surveys
+
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Data-driven survey of 2,170 public Jev projects, describing early ecosystem growth, application domains, and how choice, judgment, and scoring decisions are used.
+
 ## Inclusion criteria
 
 A listed project must:
