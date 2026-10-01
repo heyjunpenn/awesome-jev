@@ -43,7 +43,7 @@ Awesome Jev is an independent, community-maintained catalog of **962 open-source
 - 🎮 [Games & simulations](#games-simulations-73) — **73**
 - 🧪 [Demos & playgrounds](#demos-playgrounds-66) — **66**
 - 📊 [Benchmarks & research](#benchmarks-research-116) — **116**
-- 📚 [Other lists](#other-lists-41) — **41**
+- 📚 [Other lists](#other-lists-42) — **42**
 
 This README is a dated snapshot of **962 unique public GitHub repositories**. Stars were captured on **2026-09-18–30** for discovery, not ranking; verify current behavior, activity, and licensing upstream.
 
@@ -1034,10 +1034,11 @@ This README is a dated snapshot of **962 unique public GitHub repositories**. St
 | [Jev no ENEM](https://github.com/patryckalves/jev-no-enem) | ★ 0 | Python | 2026-09-23 | Reproducible evaluation of Jev Choice decisions on 182 valid ENEM 2025 questions, with raw results, accuracy, calibration, and latency analysis. |
 | [jev-skillbench](https://github.com/MohibShaikh/jev-skillbench) | ★ 0 | Python | 2026-09-24 | Benchmark of Jev as a malicious agent-skill detector on MalSkillBench with verify-and-escalate evaluation. |
 
-### Other lists (41)
+### Other lists (42)
 
 | Project | Stars | Language | Added | Description |
 |---|---:|---|---|---|
+| [awesome-jev-prompts](https://github.com/vicfei/awesome-jev-prompts) | ★ 0 | Markdown | 2026-10-02 | 43 Jev question-design patterns (Choice/Score/Noul) with copy-pasteable templates, threshold guidance, failure modes, and sources, plus 10 anti-patterns. CC0, bilingual. |
 | [awesome-jev-tools](https://github.com/v-modal/awesome-jev-tools) | ★ 659 | — | 2026-09-23 | Decision-oriented directory of 152 linked Jev tools and practices, with inclusion criteria, caveats, and source attribution. |
 | [awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) | ★ 641 | Python | 2026-09-20 | Evidence-backed Jev use cases, patterns, prompts, and starter code. |
 | [awesome-typesafe-jev](https://github.com/AbdelStark/awesome-typesafe-jev) | ★ 431 | HTML | 2026-09-22 | Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations. |
