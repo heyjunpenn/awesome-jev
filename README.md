@@ -1037,8 +1037,8 @@ This README is a dated snapshot of **962 unique public GitHub repositories**. St
 ### Other lists (42)
 
 | Project | Stars | Language | Added | Description |
-|---|
-| [awesome-jev-prompts](https://github.com/vicfei/awesome-jev-prompts) | ★ 0 | Markdown | 2026-10-02 | 43 Jev question-design patterns (Choice/Score/Noul) with copy-pasteable templates, threshold guidance, failure modes, and sources, plus 10 anti-patterns. CC0, bilingual. |---:|---|---|---|
+|---|---:|---|---|---|
+| [awesome-jev-prompts](https://github.com/vicfei/awesome-jev-prompts) | ★ 0 | Markdown | 2026-10-02 | 43 Jev question-design patterns (Choice/Score/Noul) with copy-pasteable templates, threshold guidance, failure modes, and sources, plus 10 anti-patterns. CC0, bilingual. |
 | [awesome-jev-tools](https://github.com/v-modal/awesome-jev-tools) | ★ 659 | — | 2026-09-23 | Decision-oriented directory of 152 linked Jev tools and practices, with inclusion criteria, caveats, and source attribution. |
 | [awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) | ★ 641 | Python | 2026-09-20 | Evidence-backed Jev use cases, patterns, prompts, and starter code. |
 | [awesome-typesafe-jev](https://github.com/AbdelStark/awesome-typesafe-jev) | ★ 431 | HTML | 2026-09-22 | Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations. |
