@@ -321,7 +321,7 @@ This README is a dated snapshot of **981 unique public GitHub repositories**. St
 | [Yueli DEX](https://github.com/haxitag/Yueli-Dex) | ★ 0 | TypeScript | 2026-09-28 | Choice-only decision exchange that routes bounded business decisions to TypeSafe Jev or compatible providers and maps validated results to non-authorizing action intents. |
 | [JEV Book Tags](https://github.com/iamjonatha/jev-book-tags) | ★ 0 | Python | 2026-10-04 | Calibre plugin where Jev Noul evaluates book genres, subjects, and evidence sufficiency, with probability thresholds and review before applying tags. |
 
-### Agent tooling (236)
+### Agent tooling (237)
 
 | Project | Stars | Language | Added | Description |
 |---|---:|---|---|---|
@@ -561,6 +561,7 @@ This README is a dated snapshot of **981 unique public GitHub repositories**. St
 | [jev-atlas](https://github.com/v60samurai/jev-atlas) | ★ 0 | Python | 2026-09-22 | Map where Jev and System One models actually belong in your project, test the strongest ideas, then implement them. A skill for Claude Code and Codex. |
 | [jev-retrieval](https://github.com/romeromarcelo/jev-retrieval) | ★ 0 | Rust | 2026-09-24 | Code and document search CLI combining BM25 recall with Jev verification and calibrated reranking. |
 | [Immune](https://github.com/schwarzschlyle/immune) | ★ 0 | Python | 2026-10-04 | Python runtime screening for LLM applications where Jev judges suspected threats in prompts, tool calls, and responses before threshold-based actions. |
+| [Subcento](https://github.com/septagos/subcento) | ★ 0 | Python | 2026-10-18 | x402 pay-per-call pre-flight transaction verification for AI agents: GoPlus + OFAC screening + official Jev 3-in-1 intent fan-out (jev-1.14.0 pinned), Ed25519-signed SAFE/CAUTION/BLOCK verdicts, fail-closed. Live on Base at 0.002 USDC/call — machines pay machines, no signup. |
 
 ### Browser & computer use (77)
 
