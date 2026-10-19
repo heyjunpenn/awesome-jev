@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 981 verified open-source projects across 11 categories" width="100%"></a>
+  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 992 verified open-source projects across 11 categories" width="100%"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/verified_projects-981-1e63ff?style=flat-square" alt="981 verified projects">
+  <img src="https://img.shields.io/badge/verified_projects-992-1e63ff?style=flat-square" alt="992 verified projects">
   <img src="https://img.shields.io/badge/categories-11-111111?style=flat-square" alt="11 categories">
   <img src="https://img.shields.io/badge/languages-29-676767?style=flat-square" alt="29 languages">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1e63ff?style=flat-square" alt="License: MIT"></a>
@@ -25,7 +25,7 @@
 
 ## Awesome Jevについて
 
-Awesome Jevは独立したコミュニティ維持されたカタログです **981 オープンソースプロジェクト** 組み込み [ジェヴ](https://typesafe.ai/)、タイプ安全AIのシステム ソフトウェア内部の決定を一式化するためのモデル。 TypeSafe AIに所属、または支持されることはありません。
+Awesome Jevは独立したコミュニティ維持されたカタログです **992 オープンソースプロジェクト** 組み込み [ジェヴ](https://typesafe.ai/)、タイプ安全AIのシステム ソフトウェア内部の決定を一式化するためのモデル。 TypeSafe AIに所属、または支持されることはありません。
 
 > **このカタログは役に立ちますか?**
 >
@@ -34,31 +34,31 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 ## コンテンツ
 
 - ✅ [公式](#公式hp-6) — **6**
-- 📦 [SDK & クライアント](#sdk-クライアント-60) — **60**
-- 🧠 [Jev-likeモデル](#jev-like-models) — **83**
-- 🧩 [フレームワークと統合](#フレームワークと統合-88) — **88**
-- 🤖 [エージェントツーリング](#エージェントツーリング-236) — **236**
+- 📦 [SDK & クライアント](#sdk-クライアント-61) — **61**
+- 🧠 [Jev-likeモデル](#jev-like-models) — **85**
+- 🧩 [フレームワークと統合](#フレームワークと統合-89) — **89**
+- 🤖 [エージェントツーリング](#エージェントツーリング-238) — **238**
 - 🖥️ [ブラウザとコンピュータの使用](#ブラウザとコンピュータの使用-77) — **77**
-- 🪟 [アプリケーション](#アプリケーション-134) — **134**
+- 🪟 [アプリケーション](#アプリケーション-137) — **137**
 - 🎮 [ゲームとシミュレーション](#ゲームシミュレーション-73) — **73**
-- 🧪 [デモとプレイグラウンド](#デモ遊び場-66) — **66**
-- 📊 [ベンチマーク & 研究](#ベンチマーク-研究-116) — **116**
+- 🧪 [デモとプレイグラウンド](#デモ遊び場-67) — **67**
+- 📊 [ベンチマーク & 研究](#ベンチマーク-研究-117) — **117**
 - 📚 [その他のリスト](#その他のリスト-42) — **42**
 
-このREADMEは日付スナップショットです **981 独自の公開 GitHub リポジトリ**お問い合わせ 星が撮影されました **2026年9月18日～10月4日** 発見のため、ランキングではなく、現在の行動、活動、ライセンスアップストリームを検証します。
+このREADMEは日付スナップショットです **992 独自の公開 GitHub リポジトリ**お問い合わせ 星が撮影されました **2026年9月18日～10月19日** 発見のため、ランキングではなく、現在の行動、活動、ライセンスアップストリームを検証します。
 
 ## 今日追加
 
 <details open>
-<summary><strong>2026年10月4日に追加された19件</strong></summary>
+<summary><strong>2026年10月19日に追加された11件</strong></summary>
 
-- **SDK & クライアント (1):** [jev (stefafafan)](https://github.com/stefafafan/jev)
-- **Jev-likeモデル (3):** [gutsy](https://github.com/kouhxp/gutsy), [Vev](https://github.com/Xiaooolong/vev), [WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep)
-- **フレームワークと統合 (6):** [JEV Sees](https://github.com/CharlesFeng0314/JEV_sees), [jev4pg](https://github.com/Sheltercosmo/jev4pg), [laya-php](https://github.com/marcreichel/laya-php), [Gut Check](https://github.com/funkadelic/ha-gutcheck), [Cribrix](https://github.com/david96182/cribrix), [JEV Book Tags](https://github.com/iamjonatha/jev-book-tags)
-- **エージェントツーリング (4):** [deepseek-harness-jev](https://github.com/luobosibing2/dsh-jev-plugin), [jev-permission-gate](https://github.com/madisonrickert/jev-permission-gate), [Jev Decision Gate](https://github.com/f-tiger/jev-decision-gate), [Immune](https://github.com/schwarzschlyle/immune)
-- **ブラウザとコンピュータの使用 (1):** [Sedum](https://github.com/sedum-dev/sedum)
-- **アプリケーション (3):** [Jev LinkedIn Saved Classifier](https://github.com/kraayenjon/jev-linkedin-saved-classifier), [JevSpan](https://github.com/lzq-0529/jev-span), [jev-seo](https://github.com/DeployMates/jev-seo)
-- **その他のリスト (1):** [awesome-jev-prompts](https://github.com/vicfei/awesome-jev-prompts)
+- **SDK & クライアント (1):** [pydecide](https://github.com/gopaljigaur/decide)
+- **Jev-likeモデル (2):** [Phocinae-Largha-150M-v1](https://github.com/Phocinae/Phocinae-Largha-150M-v1), [VideoJev](https://github.com/MCG-NJU/VideoJev)
+- **フレームワークと統合 (1):** [vd-jev](https://github.com/ondata/vd-jev)
+- **エージェントツーリング (2):** [agent-reflex](https://github.com/psygreg/agent-reflex), [local-decider](https://github.com/pusucip25/local-decider)
+- **アプリケーション (3):** [Jev RAG](https://github.com/aifabrice/jev-rag), [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline), [DeciFlow](https://github.com/call518/DeciFlow)
+- **デモ&遊び場 (1):** [Trio-Spark demos](https://github.com/machinefi/trio-spark)
+- **ベンチマーク & 研究 (1):** [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails)
 
 </details>
 
@@ -73,7 +73,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [TypeSafe Daggerverse](https://github.com/typesafe-ai/daggerverse) | ★ 12 | Python | 2026-09-20 | TypeSafe AI および System One ワークフロー用の再利用可能な Dagger モジュールの公式コレクション。 |
 | [TypeSafe Overwatch](https://github.com/typesafe-ai/Overwatch) | ★ 4 | Python | 2026-09-20 | システムワンのワークフローを観察し評価するための公式ツール。 |
 
-### SDK & クライアント (60)
+### SDK & クライアント (61)
 
 | プロジェクト | Stars | 言語 | 収録日 | 説明 |
 |---|---:|---|---|---|
@@ -125,6 +125,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [typesafe-sdk-php (Butochnikov)](https://github.com/Butochnikov/typesafe-sdk-php) | ★ 1 | PHP | 2026-09-22 | 型指定された Choice、Score、および Noul リクエストと同期または同時トランスポートを備えた TypeSafe System One 用の非公式 PHP クライアント。 |
 | [jev-sdk-java](https://github.com/luigivis/jev-sdk-java) | ★ 1 | Java | 2026-09-22 | TypeSafe AI Jev (System One) 決定 API 用のタイプセーフ Java 21 クライアント |
 | [DecisionKit](https://github.com/iamjonatha/decisionkit-dotnet) | ★ 1 | C# | 2026-09-30 | プロバイダー非依存の .NET 意思決定ライブラリ。Jev プロバイダーが型付き Choice・Score・Noul 質問を System One API に変換する。 |
+| [pydecide](https://github.com/gopaljigaur/decide) | ★ 1 | Python | 2026-10-19 | Jev、OpenRouter、OpenAI Decisions、ローカルモデルで型付き Choice・Score・Noul 判断を使える Python クライアント。信頼度に基づくフォールバックと System One 互換サーバーを備える。 |
 | [s1-rs](https://github.com/AbdelStark/s1-rs) | ★ 0 | Rust | 2026-09-19 | タイプ システム Rust(選択/スコア/ノール)の1層。 |
 | [typesafe-rs](https://github.com/AbdelStark/typesafe-rs) | ★ 0 | Rust | 2026-09-19 | TypeSafe System One 用の Latency-first Rust SDK です。 |
 | [typesafe_ai (hfiguera)](https://github.com/hfiguera/typesafe_ai) | ★ 0 | Elixir | 2026-09-19 | TypeSafe AI System One API の指示されたミントクライアント。 |
@@ -140,7 +141,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 
 <a id="jev-like-models"></a>
 
-### Jev-likeモデル (83)
+### Jev-likeモデル (85)
 
 | プロジェクト | Stars | 言語 | 収録日 | 説明 |
 |---|---:|---|---|---|
@@ -163,6 +164,8 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [Open-Jev](https://github.com/Zefan-Cai/Open-Jev) | ★ 231 | Python | 2026-09-23 | Qwen3.5-2B、Qwen3.5-9B、Qwen3.8-27B によるオープン確率決定。 |
 | [rizzo-flow](https://github.com/Rizzo-AI-Academy/rizzo-flow) | ★ 230 | Python | 2026-09-22 | Jev に対するオープンでローカルな解釈: 単一のトークンを生成せずに、LLM から型付けされた決定 |
 | [jeff](https://github.com/logan-markewich/jeff) | ★ 189 | Python | 2026-09-21 | GLiNER系モデルを基盤に、バッチ処理と型付き質問を備えるセルフホスト型Jev互換System Oneサーバーです。 |
+| [Phocinae-Largha-150M-v1](https://github.com/Phocinae/Phocinae-Largha-150M-v1) | ★ 183 | Python | 2026-10-19 | 別提供のローカル PyTorch ランタイムから、確率付きの Choice・Noul・2〜10 点の Score を返す、mmBERT ベースの公開バイリンガル 144.3M 判断モデル。 |
+| [VideoJev](https://github.com/MCG-NJU/VideoJev) | ★ 170 | Python | 2026-10-19 | 動画プレフィックスを複数の質問で共有し、テキストを生成せず候補を直接採点して時間区間と多肢選択回答を返す、公開 4B・35B-A3B 動画判断モデル。 |
 | [djev-spark](https://github.com/mmastrac/djev-spark) | ★ 168 | HTML | 2026-09-22 | DGX Spark に関する DiffusionGemma NVFP4 構造化決定: コンテナー レシピ レビュー中にリポジトリ レベルのライセンス ファイルが見つかりませんでした。 |
 | [openjev](https://github.com/razorback16/openjev) | ★ 142 | Python | 2026-09-19 | オープン、Jev対応システム DiffusionGemmaの1つの決定サーバー。 |
 | [AnyJev](https://github.com/nokia-applied-research/AnyJev) | ★ 142 | Python | 2026-09-23 | あらゆる LLM を Jev スタイルの意思決定モデルに変換します。型付きの意思決定、実際の確率、トレーニングは不要です。 (更新を続けます)。 |
@@ -228,7 +231,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [TetraJev](https://github.com/FeiLiuEM/tetrajev) | ★ 1 | Python | 2026-09-30 | 2 つの凍結オープンモデルから 4 系統の読み取りを融合し、一致度と較正ゲートで回答または棄権を決めるローカル意思決定スタック。 |
 | [Verdict](https://github.com/Manavarya09/verdict) | ★ 0 | Python | 2026-09-25 | 校正済みの回答、回答保留、Jev 互換 API を備えた独立した多言語決定モデル。 |
 
-### フレームワークと統合 (88)
+### フレームワークと統合 (89)
 
 | プロジェクト | Stars | 言語 | 収録日 | 説明 |
 |---|---:|---|---|---|
@@ -320,8 +323,9 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [Tiltmeter](https://github.com/abe75ch/tiltmeter) | ★ 0 | Python | 2026-09-28 | Jev の確率を記録し、モデル版の変更、分布ドリフト、しきい値付近への集中、推定精度低下を通知する差し替え可能なプロキシ兼 Pydantic AI クライアント。 |
 | [Yueli DEX](https://github.com/haxitag/Yueli-Dex) | ★ 0 | TypeScript | 2026-09-28 | Choice 専用の意思決定交換基盤。境界付きの業務判断を TypeSafe Jev または互換プロバイダーへルーティングし、検証済みの結果を権限を伴わない ActionIntent に変換する。 |
 | [JEV Book Tags](https://github.com/iamjonatha/jev-book-tags) | ★ 0 | Python | 2026-10-04 | Jev Noul で本のジャンル、主題、根拠の十分さを評価する Calibre プラグイン。確率の閾値で絞り、タグ適用前に確認できる。 |
+| [vd-jev](https://github.com/ondata/vd-jev) | ★ 0 | Python | 2026-10-19 | テキスト列の各行を Jev または OpenRouter の判断モデルへ送り、型付きラベル、スコア、確率、信頼度を列として追加する VisiData プラグイン。 |
 
-### エージェントツーリング (236)
+### エージェントツーリング (238)
 
 | プロジェクト | Stars | 言語 | 収録日 | 説明 |
 |---|---:|---|---|---|
@@ -505,6 +509,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [jev-mcp (freepik-company)](https://github.com/freepik-company/jev-mcp) | ★ 2 | Go | 2026-09-22 | OpenRouter または TypeSafe 経由の Jev / System One による型付き決定のための MCP サーバー |
 | [decision-first](https://github.com/harrymunro/decision-first) | ★ 2 | Python | 2026-09-22 | 境界のある判断ステップを特定し、最初に型付き意思決定モデル (TypeSafe の Jev) を試行し、すべての試行を文書化するエージェント スキル |
 | [jear](https://github.com/iJ03l/jear) | ★ 2 | Rust | 2026-09-22 | NEAR AI クラウド推論および IronClaw エージェント用の Jev ルーテッド クライアント。 |
+| [agent-reflex](https://github.com/psygreg/agent-reflex) | ★ 2 | TypeScript | 2026-10-19 | Jev または互換 System One モデルでシェルの危険性、タスクの複雑さ、文脈の保持、ツール公開を判断するコーディングエージェント向けプラグイン。対応機能はホストごとに異なる。 |
 | [jev-git](https://github.com/AkashPriyadarshii/jev-git) | ★ 1 | Rust | 2026-09-19 | サブ秒のプレコミットと前押しのセマンティックゲートは、Jevで段階的な差分を選別します。 |
 | [jev-scout](https://github.com/AkashPriyadarshii/jev-scout) | ★ 1 | Rust | 2026-09-19 | GitHub と crates.io の発見 CLI と MCP サーバーを囲んで、Jev を使用して、アーキテクチャフィット、ライセンス、メンテナンスをスコアします。 |
 | [jev-skillful](https://github.com/bestagentkits/jev-skillful) | ★ 1 | TypeScript | 2026-09-19 | コーディングエージェント用のPer-prompt機能ルータ: インストールされたスキル、MCPサーバー、エージェント、コマンドをTypeSafe Jev経由でプロンプトから解決し、注射が実際に助けるかどうかを測定します。 |
@@ -561,6 +566,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [jev-atlas](https://github.com/v60samurai/jev-atlas) | ★ 0 | Python | 2026-09-22 | Jev および System One モデルがプロジェクト内で実際に属する場所をマッピングし、最も強力なアイデアをテストして、それらを実装します。クロード・コードとコーデックスのスキル。 |
 | [jev-retrieval](https://github.com/romeromarcelo/jev-retrieval) | ★ 0 | Rust | 2026-09-24 | BM25 リコールと Jev 検証および調整された再ランキングを組み合わせたコードおよびドキュメント検索 CLI。 |
 | [Immune](https://github.com/schwarzschlyle/immune) | ★ 0 | Python | 2026-10-04 | LLM アプリ向け Python 実行時検査層。Jev がプロンプト、ツール呼び出し、応答の疑わしい脅威を判定し、閾値に基づいて対処する。 |
+| [local-decider](https://github.com/pusucip25/local-decider) | ★ 0 | Python | 2026-10-19 | 決定的ルールを先に適用し、未解決のツール操作を進めるか確認を求めるかを Jev またはローカル互換モデルで判断する実験的な実行前ゲート。 |
 
 ### ブラウザとコンピュータの使用 (77)
 
@@ -644,7 +650,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [sloppy-jevs-extension](https://github.com/neddes/sloppy-jevs-extension) | ★ 0 | JavaScript | 2026-09-19 | オープンソースのChrome拡張機能により、AIが生成したプロースと広告をJevでフィルタリングします。 |
 | [sift](https://github.com/tylergibbs1/sift) | ★ 0 | TypeScript | 2026-09-19 | 再ランクするChrome拡張 TypeSafe Jev で Google 結果を取得し、販売ページと SEO フィラーを折ります。 |
 
-### アプリケーション (134)
+### アプリケーション (137)
 
 | プロジェクト | Stars | 言語 | 収録日 | 説明 |
 |---|---:|---|---|---|
@@ -722,6 +728,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [ad-radar](https://github.com/pengchujin/ad-radar) | ★ 13 | JavaScript | 2026-09-24 | Jev を使用して、ソーシャル プラットフォーム上の広告と選択されたトピックを識別して折りたたむブラウザ拡張機能。 |
 | [jevthoven](https://github.com/cocktailpeanut/jevthoven) | ★ 12 | TypeScript | 2026-09-23 | Jev を利用した AI 音楽 (MIDI) ジェネレーター。 |
 | [Byeori](https://github.com/joonan-lab/byeori) | ★ 11 | Python | 2026-09-25 | 再利用できる知識の課題を Jev で選び、人の確認に回す科学知識システム。 |
+| [Jev RAG](https://github.com/aifabrice/jev-rag) | ★ 11 | Python | 2026-10-19 | ローカル SQLite BM25 検索の候補を Jev の一括 Noul 証拠関連性判断で並べ替え、別モデルが回答するパイプライン。選んだテキストは外部プロバイダーへ送信される。 |
 | [jevocks](https://github.com/unicodeveloper/jevocks) | ★ 9 | TypeScript | 2026-09-19 | Jevで毎日在庫状況。 |
 | [jevlogs](https://github.com/reachjalil/jevlogs) | ★ 8 | TypeScript | 2026-09-19 | オープンソース OpenTelemetry の Jev ログトリアージ。 高価なLM解析前の信号をスコアします。 |
 | [jsort](https://github.com/keltokhy/jsort) | ★ 8 | Python | 2026-09-21 | Sorts text by a plain-English criterion using pairwise Jev judgments and a locally fitted scale. |
@@ -734,6 +741,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [JevSpan](https://github.com/lzq-0529/jev-span) | ★ 5 | Python | 2026-10-04 | Jev Choice で候補テキスト範囲を選出・検証・調整するゼロショット固有表現認識。文字位置、確率、判定履歴を保持する。 |
 | [jev-grug](https://github.com/mkotlikov/jev-grug) | ★ 4 | TypeScript | 2026-09-19 | JEVが話すのに役立つ <3。 |
 | [typesafe-cli (y0usaf)](https://github.com/y0usaf/typesafe-cli) | ★ 4 | TypeScript | 2026-09-19 | シェルからJevタイプの質問を尋ねる:noul、選択、およびスコアは、偽りではなく、数字として答えます。 |
+| [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) | ★ 4 | Python | 2026-10-19 | 未解決の研究課題に対し、新しい論文やリポジトリを Jev の型付き Noul・Score 判断で保持・レビュー・除外に振り分け、別モデルが日次ノートを書く試験的な研究モニター。 |
 | [jevsql](https://github.com/EugeneBoondock/jevsql) | ★ 3 | JavaScript | 2026-09-19 | 自然言語の述語でSQL、TypeSafeのJevによって供給されます。 フィルタ、ランク付け、分類し、意味によって行を分類し、 - バッチ処理、キャッシュおよびコスト管理。 |
 | [smart-switch](https://github.com/reycn/smart-switch) | ★ 3 | Swift | 2026-09-19 | フロントアーの人工知能を使用して、MacOS用のウィンドウスイッチャを初期化しました。 TypeSafeのJevモデルによって予測される。 |
 | [every](https://github.com/sufianetaouil/every) | ★ 3 | Python | 2026-09-19 | コードベースですべての関数のはい/いいえ質問をしてください。 秒単位でランク付けされた回答。 TypeSafe Jev によるパターンが問題となっているグレップ。 |
@@ -748,6 +756,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [btc-jev-signal](https://github.com/WebGrga/btc-jev-signal) | ★ 2 | TypeScript | 2026-09-19 | TypeSafe Jev の確率と Binance 市場データを用いた実験マルチホライズン BTC 信号発生器。 |
 | [jlink](https://github.com/keltokhy/jlink) | ★ 2 | Python | 2026-09-21 | Record linkage using Jev pair judgments against a plain-English matching rule, with auditable probabilities. |
 | [jevpdf](https://github.com/kylemclaren/jevpdf) | ★ 2 | TypeScript | 2026-09-24 | Jev Noul 判定を使用して、自然言語の質問に一致する行を強調表示する PDF リーダー。 |
+| [DeciFlow](https://github.com/call518/DeciFlow) | ★ 2 | Python | 2026-10-19 | Jev または Laya がイベントについて設定可能な型付き質問に答え、数値結果を検証し、任意の Python アクションへ渡すバッチ・ストリーミングログ分析アプリ。 |
 | [JevTicktRouter](https://github.com/GhrezaKh74/JevTicktRouter) | ★ 1 | C# | 2026-09-19 | .NET 10 と React 19 のアプリケーションで、TypeSafe Jev を使用して、高速で構造化された AI 動力を与えられたチケットトリアージ。 |
 | [Jackalope](https://github.com/Jackalope-Dev/jackalope) | ★ 1 | Rust | 2026-09-19 | エージェントのコーディングのためのデスクトップGUIは、ローカルのエージェントとアカウントを横断するタスクをルート化し、Jevはタスクごとに最高のエージェントを選び、基本的なコードレビューチェックを実行し、コンテキストを供給します。 |
 | [jev-cli](https://github.com/jtsang4/jev-cli) | ★ 1 | TypeScript | 2026-09-19 | タイプ安全のためのCLI AI の Jev の評価モデル — 型の質問、構造化された JSON は答えます。 |
@@ -861,7 +870,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [Jev RPS](https://github.com/0xlau/jev-rps) | ★ 0 | JavaScript | 2026-09-23 | コミット・リビール方式のじゃんけん。Jevが行動を評価し次手を予測して、プレイヤーより先に手を決める。 |
 | [The Chess of Life × Jev](https://github.com/ARCJ137442/jev-life) | ★ 0 | TypeScript | 2026-09-23 | 編集可能なライフゲーム実験台。Jevが合法セルを評価して介入を選び、コードが盤面を進行・検証する。 |
 
-### デモ&遊び場 (66)
+### デモ&遊び場 (67)
 
 | プロジェクト | Stars | 言語 | 収録日 | 説明 |
 |---|---:|---|---|---|
@@ -885,6 +894,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [away-together-starter](https://github.com/earlyaidopters/away-together-starter) | ★ 12 | HTML | 2026-09-25 | 分類器の学習を含む Jev 着想の旅行判断チュートリアル。ブラウザーデモは記録済みのモデル出力を使用。 |
 | [Instinct](https://github.com/joevidev/ui-generator-instinct-jev) | ★ 6 | TypeScript | 2026-09-19 | Instinct: 無料のテキストでケースを記述し、 Jev はコードの行を生成したりコピーしたりすることなく、固定カタログから UI を選択します。 |
 | [tryjev](https://github.com/sugarforever/tryjev) | ★ 6 | Svelte | 2026-09-28 | TypeSafe、OpenRouter、Vercel AI Gateway 経由で編集可能な Jev の Choice・Score・Noul 質問を試せるブラウザプレイグラウンド。 |
+| [Trio-Spark demos](https://github.com/machinefi/trio-spark) | ★ 5 | Python | 2026-10-19 | ホスト型 System One 互換サービス Trio-Spark 向けの公開クライアント、評価ツール、テキスト・画像・動画判断デモ。モデル重みと学習コードは非公開。 |
 | [jev-autopilot](https://github.com/arielweinberger/jev-autopilot) | ★ 4 | TypeScript | 2026-09-19 | このデモは、タイプセーフAIからジェフを使用して、A地点からB地点までのランダムな都市でドローンを自律的に飛行し、途中で障害物を避けます。 旅行費用$ 0.01。 |
 | [typesafe-ai-playground](https://github.com/nickthompson480/typesafe-ai-playground) | ★ 3 | JavaScript | 2026-09-19 | コミュニティタイプセーフAIの運動場:110のユースケース、ゲーム、ジレンマ、モデルの課題、編集可能なプロンプト、A / Bの比較、モバイルフレンドリーなUI。 |
 | [clarity-judge](https://github.com/BunsDev/clarity-judge) | ★ 2 | TypeScript | 2026-09-19 | TypeSafe AI の Jev モデルによって動力を与えられた複数の軸線の執筆質のチェッカー。 名前付きチェックを分離し、それぞれ独自の評論と自信を持っています。 |
@@ -932,7 +942,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [Magic Jev Ball (mikecann)](https://github.com/mikecann/magic-jev-ball) | ★ 0 | TypeScript | 2026-09-25 | Jev が定番の20回答を採点し、その確率を表示する Convex 上の3Dマジック8ボール。 |
 | [Jev Hub](https://github.com/netcode001/jev) | ★ 0 | Python | 2026-09-30 | Cloudflare プロキシ経由で型付き Choice・Score・Noul 質問を送信し、構造化結果を表示するテンプレートを備えたバイリンガル Jev トラッカー兼対話型プレイグラウンド。レビュー時にリポジトリレベルのライセンスファイルは見つからなかった。 |
 
-### ベンチマーク & 研究 (116)
+### ベンチマーク & 研究 (117)
 
 | プロジェクト | Stars | 言語 | 収録日 | 説明 |
 |---|---:|---|---|---|
@@ -1052,6 +1062,7 @@ Awesome Jevは独立したコミュニティ維持されたカタログです **
 | [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | ★ 0 | Python | 2026-09-22 | Jev 確率に対する ORDER BY は行を防御可能な順序に配置しますか? TypeSafe AI の Jev の独立したランキング、キャリブレーション、および不変測定: 360 個のラベル付き行で 6 つの事前登録されたゲートに合格し、等級付けされた製品の関連性では 6 つ中 4 つが不合格でした。 |
 | [Jev no ENEM](https://github.com/patryckalves/jev-no-enem) | ★ 0 | Python | 2026-09-23 | ENEM 2025の有効182問でJev Choiceを再現評価し、生データ、正答率、較正、遅延を公開。 |
 | [jev-skillbench](https://github.com/MohibShaikh/jev-skillbench) | ★ 0 | Python | 2026-09-24 | 検証およびエスカレート評価を備えた MalSkillBench 上の悪意のあるエージェント スキル検出器としての Jev のベンチマーク。 |
+| [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) | ★ 0 | Python | 2026-10-19 | 型付き Noul 検査と固定 0.5 の遮断しきい値で Jev などの判断システムを比較し、採点契約と著者による実行結果を公開する再現可能なガードレールベンチマーク。 |
 
 ### その他のリスト (42)
 
