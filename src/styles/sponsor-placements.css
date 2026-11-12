@@ -27,8 +27,7 @@
   text-transform: uppercase;
 }
 
-.sponsor-placement-logo,
-.showcase-sponsor-logo {
+.sponsor-placement-logo {
   position: relative;
   display: grid;
   place-items: center;
@@ -40,8 +39,7 @@
 }
 
 .sponsor-placement-logo { width: 44px; height: 44px; border-radius: 12px; }
-.sponsor-placement-logo img,
-.showcase-sponsor-logo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.sponsor-placement-logo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 
 .sponsor-placement-identity { min-width: 0; display: grid; gap: 4px; }
 .sponsor-placement-identity strong { overflow-wrap: anywhere; font-size: .95rem; line-height: 1.25; }
@@ -49,63 +47,6 @@
 .sponsor-placement-amount { color: #3f4f79; font: 600 var(--text-label)/1.35 var(--font-mono); font-variant-numeric: tabular-nums lining-nums; }
 .sponsor-placement-visit { color: var(--blue-deep); font-size: .8125rem; font-weight: 700; }
 
-.showcase-sponsor-placement {
-  width: 100%;
-  display: inline-block;
-  break-inside: avoid;
-  margin: 0 0 18px;
-  overflow: hidden;
-  border: 1px solid #8daaf0;
-  background: #fff;
-  vertical-align: top;
-  transition: border-color .18s ease, box-shadow .2s ease, transform .18s cubic-bezier(.22,1,.36,1);
-}
-
-.showcase-sponsor-placement > a { display: grid; color: var(--ink); text-decoration: none; }
-.showcase-sponsor-placement > a:focus-visible { position: relative; z-index: 1; outline: 3px solid var(--ink); outline-offset: -4px; }
-.showcase-sponsor-visual {
-  min-height: 144px;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  grid-template-rows: auto 1fr;
-  align-items: start;
-  gap: 16px;
-  padding: 18px;
-  background: #1e63ff;
-  color: #fff;
-}
-.showcase-sponsor-visual .sponsor-placement-label {
-  grid-column: 1;
-  grid-row: 1;
-  justify-self: start;
-  padding: 6px 8px;
-  border: 1px solid rgba(255,255,255,.58);
-  color: #fff;
-  line-height: 1;
-}
-.showcase-sponsor-logo {
-  width: 64px;
-  height: 64px;
-  grid-column: 2;
-  grid-row: 1 / span 2;
-  align-self: end;
-  border-color: rgba(255,255,255,.64);
-  border-radius: 14px;
-  font-size: 1.05rem;
-}
-.showcase-sponsor-body { display: grid; gap: 8px; padding: 18px; }
-.showcase-sponsor-body > strong { overflow-wrap: anywhere; font-size: 1.125rem; line-height: 1.25; }
-.showcase-sponsor-body > span:not(.showcase-sponsor-meta) { overflow-wrap: anywhere; color: var(--muted); font: var(--text-label)/1.45 var(--font-mono); }
-.showcase-sponsor-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 10px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font: var(--text-label)/1.4 var(--font-mono); }
-.showcase-sponsor-meta b { min-height: 32px; display: inline-flex; align-items: center; padding: 0 10px; background: var(--blue-soft); color: var(--blue-deep); font-family: var(--font-sans); font-size: .75rem; }
-
-@media (hover: hover) {
-  .showcase-sponsor-placement:hover {
-    border-color: transparent;
-    box-shadow: 0 16px 34px rgba(20,20,18,.16);
-    transform: translateY(-2px);
-  }
-}
 
 .sponsor-placement-skeleton { pointer-events: none; }
 
@@ -143,26 +84,6 @@
 .sponsor-skeleton-amount { width: 76px; height: 11px; }
 .sponsor-skeleton-action { width: 72px; height: 13px; }
 
-.sponsor-skeleton-visual {
-  background: #e8eeff;
-}
-
-.sponsor-skeleton-showcase-logo {
-  width: 64px;
-  height: 64px;
-  grid-column: 2;
-  grid-row: 1 / span 2;
-  align-self: end;
-  border-radius: 14px;
-}
-
-.sponsor-skeleton-showcase-label { width: 68px; height: 24px; grid-column: 1; grid-row: 1; }
-.sponsor-skeleton-body { min-height: 147px; }
-.sponsor-skeleton-showcase-title { width: 68%; height: 22px; }
-.sponsor-skeleton-showcase-domain { width: 44%; height: 14px; }
-.sponsor-skeleton-meta { min-height: 47px; }
-.sponsor-skeleton-showcase-amount { width: 88px; height: 13px; }
-.sponsor-skeleton-showcase-action { width: 86px; height: 32px; }
 
 @keyframes sponsor-skeleton-sweep {
   to { transform: translateX(110%); }
@@ -200,6 +121,4 @@
 
 @media (prefers-reduced-motion: reduce) {
   .sponsor-skeleton-bar::after { animation: none; }
-  .showcase-sponsor-placement { transition: none; }
-  .showcase-sponsor-placement:hover { transform: none; }
 }

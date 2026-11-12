@@ -18,7 +18,7 @@ const zh: Messages = {
     lastUpdated: '最近更新', updatedDate: '2026 年 9 月 23 日', filterLanguage: '按语言筛选', allLanguages: '全部语言', languages: '语言',
     addedToday: '今天新增', addedThisWeek: '本周新增', clearRecency: '显示全部日期',
     searchPlaceholder: '搜索项目、语言或决策', imageAlt: 'heyjunpenn/awesome-jev 仓库的 GitHub Star 增长趋势',
-    featureAnnouncement: '新功能：Showcase 案例库与产品推广。', viewTour: '查看引导',
+    featureAnnouncement: '新功能：产品推广。', viewTour: '查看引导',
   },
   filterPage: {
     categoryTitle: (category) => `精选 Jev 项目：${category}`,

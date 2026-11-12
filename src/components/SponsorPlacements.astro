@@ -3,7 +3,7 @@ import type { Locale } from '../i18n';
 
 interface Props {
   locale: Locale;
-  surface: 'projects' | 'showcase';
+  surface: 'projects';
 }
 
 const { locale, surface } = Astro.props;
@@ -133,46 +133,6 @@ const text = copy[locale];
       return item;
     };
 
-    const createShowcasePlacement = (sponsor: Sponsor) => {
-      const item = document.createElement('article');
-      item.className = 'showcase-sponsor-placement';
-      item.dataset.sponsorPlacement = '';
-      const link = document.createElement('a');
-      link.href = sponsor.url;
-      link.target = '_blank';
-      link.rel = 'sponsored noreferrer';
-      link.ariaLabel = `${visitLabel}: ${sponsor.name}`;
-      link.dataset.sponsorClickUrl = sponsor.url;
-      const visual = document.createElement('span');
-      visual.className = 'showcase-sponsor-visual';
-      const label = document.createElement('span');
-      label.className = 'sponsor-placement-label';
-      label.textContent = sponsoredLabel;
-      visual.appendChild(label);
-      visual.appendChild(createLogo(sponsor, 'showcase-sponsor-logo'));
-      const body = document.createElement('span');
-      body.className = 'showcase-sponsor-body';
-      const name = document.createElement('strong');
-      name.textContent = sponsor.name;
-      const domain = document.createElement('span');
-      domain.textContent = sponsorDomain(sponsor.url);
-      const meta = document.createElement('span');
-      meta.className = 'showcase-sponsor-meta';
-      const amount = document.createElement('span');
-      amount.textContent = totalLabel(sponsor.amountUsd);
-      const visit = document.createElement('b');
-      visit.textContent = visitLabel;
-      meta.appendChild(amount);
-      meta.appendChild(visit);
-      body.appendChild(name);
-      body.appendChild(domain);
-      body.appendChild(meta);
-      link.appendChild(visual);
-      link.appendChild(body);
-      item.appendChild(link);
-      return item;
-    };
-
     const createSkeletonBar = (className: string) => {
       const bar = document.createElement('span');
       bar.className = `sponsor-skeleton-bar ${className}`;
@@ -196,29 +156,6 @@ const text = copy[locale];
       shell.appendChild(createSkeletonBar('sponsor-skeleton-amount'));
       shell.appendChild(createSkeletonBar('sponsor-skeleton-action'));
       item.appendChild(shell);
-      return item;
-    };
-
-    const createShowcaseSkeleton = () => {
-      const item = document.createElement('article');
-      item.className = 'showcase-sponsor-placement sponsor-placement-skeleton';
-      item.dataset.sponsorPlacement = '';
-      item.ariaHidden = 'true';
-      const visual = document.createElement('span');
-      visual.className = 'showcase-sponsor-visual sponsor-skeleton-visual';
-      visual.appendChild(createSkeletonBar('sponsor-skeleton-showcase-label'));
-      visual.appendChild(createSkeletonBar('sponsor-skeleton-showcase-logo'));
-      const body = document.createElement('span');
-      body.className = 'showcase-sponsor-body sponsor-skeleton-body';
-      body.appendChild(createSkeletonBar('sponsor-skeleton-showcase-title'));
-      body.appendChild(createSkeletonBar('sponsor-skeleton-showcase-domain'));
-      const meta = document.createElement('span');
-      meta.className = 'showcase-sponsor-meta sponsor-skeleton-meta';
-      meta.appendChild(createSkeletonBar('sponsor-skeleton-showcase-amount'));
-      meta.appendChild(createSkeletonBar('sponsor-skeleton-showcase-action'));
-      body.appendChild(meta);
-      item.appendChild(visual);
-      item.appendChild(body);
       return item;
     };
 
@@ -280,27 +217,8 @@ const text = copy[locale];
       );
     };
 
-    const placeShowcaseSponsors = () => {
-      const grid = document.querySelector('#showcase-grid');
-      if (!grid) return;
-      const cards = [...grid.querySelectorAll<HTMLElement>('[data-showcase-card]')];
-      placeSponsors(
-        grid,
-        cards,
-        sponsorPlacementPageSize,
-        (card, index) => card.dataset.videoId ?? String(index),
-        createShowcasePlacement,
-        createShowcaseSkeleton,
-      );
-    };
-
-    if (surface === 'projects') {
-      placeProjectSponsors();
-      window.addEventListener('catalog:rendered', placeProjectSponsors);
-    } else {
-      placeShowcaseSponsors();
-      window.addEventListener('showcase:rendered', placeShowcaseSponsors);
-    }
+    placeProjectSponsors();
+    window.addEventListener('catalog:rendered', placeProjectSponsors);
 
     try {
       const response = await fetch(endpoint, {
@@ -314,7 +232,6 @@ const text = copy[locale];
       sponsors = [];
     }
 
-    if (surface === 'projects') placeProjectSponsors();
-    else placeShowcaseSponsors();
+    placeProjectSponsors();
   });
 </script>

@@ -21,7 +21,7 @@ const categoryIds = [
   'other-lists',
 ] as const;
 
-const categoryCounts = [6, 61, 85, 89, 238, 77, 137, 73, 67, 117, 42] as const;
+const categoryCounts = [6, 61, 87, 89, 239, 77, 137, 73, 67, 119, 42] as const;
 
 const categoryNames: Record<Locale, readonly string[]> = {
   en: ['Official', 'SDKs & clients', 'Jev-like models', 'Frameworks & integrations', 'Agent tooling', 'Browser & computer use', 'Applications', 'Games & simulations', 'Demos & playgrounds', 'Benchmarks & research', 'Other lists'],

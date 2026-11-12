@@ -19,7 +19,7 @@ const en = {
     lastUpdated: 'Last updated', updatedDate: 'September 23, 2026', filterLanguage: 'Filter by language', allLanguages: 'All languages', languages: 'Languages',
     addedToday: 'Today', addedThisWeek: 'This week', clearRecency: 'Show all dates',
     searchPlaceholder: 'Search projects, languages, or decisions', imageAlt: 'GitHub star growth for heyjunpenn/awesome-jev over time',
-    featureAnnouncement: 'New: Showcase and product promotion.', viewTour: 'View guide',
+    featureAnnouncement: 'New: product promotion.', viewTour: 'View guide',
   },
   filterPage: {
     categoryTitle: (category: string) => `Awesome ${category} Jev Projects`,

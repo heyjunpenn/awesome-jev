@@ -3,7 +3,6 @@ import type { Locale } from '../i18n';
 import {
   ArrowRight,
   Check,
-  Clapperboard,
   Megaphone,
   X,
 } from '@lucide/astro';
@@ -23,7 +22,6 @@ type TourCopy = {
   videoLabel: (title: string) => string;
   steps: [
     { title: string; description: string },
-    { title: string; description: string },
   ];
 };
 
@@ -34,8 +32,7 @@ const copyByLocale: Record<Locale, TourCopy> = {
     step: (current, total) => `Step ${current} of ${total}`,
     videoLabel: (title) => `Guide video: ${title}`,
     steps: [
-      { title: 'Explore the Showcase', description: 'Browse real Jev demos by use case, search the complete collection, and open any card to watch the video with its original source.' },
-      { title: 'Promote your product', description: 'Place your product in the project catalog, Showcase feed, GitHub README, and site sidebar through the new sponsorship board.' },
+      { title: 'Promote your product', description: 'Place your product in the project catalog, GitHub README, and site sidebar through the new sponsorship board.' },
     ],
   },
   zh: {
@@ -43,40 +40,35 @@ const copyByLocale: Record<Locale, TourCopy> = {
     step: (current, total) => `第 ${current} 步，共 ${total} 步`,
     videoLabel: (title) => `引导视频：${title}`,
     steps: [
-      { title: 'Showcase 案例库', description: '按使用场景浏览真实的 Jev 演示，搜索完整案例库，并在详情中观看视频、查看原帖与实现背景。' },
-      { title: '推广你的产品', description: '通过新的赞助榜，让你的产品出现在项目目录、Showcase、GitHub README 和全站侧边栏。' },
+      { title: '推广你的产品', description: '通过新的赞助榜，让你的产品出现在项目目录、GitHub README 和全站侧边栏。' },
     ],
   },
   ja: {
     eyebrow: 'bestjev の新機能', next: '次へ', done: '完了', skip: 'ツアーをスキップ', skipVideo: '動画をスキップ', skipAndDone: 'スキップして完了',
     step: (current, total) => `${total}ステップ中${current}`, videoLabel: (title) => `ガイド動画：${title}`,
     steps: [
-      { title: 'Showcase を見る', description: '実際の Jev デモを用途別に閲覧し、コレクション全体を検索して、動画と元の投稿を確認できます。' },
-      { title: 'プロダクトを宣伝', description: '新しいスポンサー枠で、プロジェクト一覧、Showcase、GitHub README、サイトのサイドバーにプロダクトを掲載できます。' },
+      { title: 'プロダクトを宣伝', description: '新しいスポンサー枠で、プロジェクト一覧、GitHub README、サイトのサイドバーにプロダクトを掲載できます。' },
     ],
   },
   ko: {
     eyebrow: 'bestjev 새 기능', next: '다음', done: '완료', skip: '안내 건너뛰기', skipVideo: '영상 건너뛰기', skipAndDone: '건너뛰고 완료',
     step: (current, total) => `${total}단계 중 ${current}단계`, videoLabel: (title) => `안내 영상: ${title}`,
     steps: [
-      { title: 'Showcase 사례 모음', description: '실제 Jev 데모를 사용 사례별로 찾고 전체 컬렉션을 검색한 뒤 영상과 원문을 함께 확인하세요.' },
-      { title: '제품 홍보하기', description: '새 스폰서 보드를 통해 프로젝트 목록, Showcase, GitHub README와 사이트 사이드바에 제품을 소개하세요.' },
+      { title: '제품 홍보하기', description: '새 스폰서 보드를 통해 프로젝트 목록, GitHub README와 사이트 사이드바에 제품을 소개하세요.' },
     ],
   },
   es: {
     eyebrow: 'Novedades de bestjev', next: 'Siguiente', done: 'Finalizar', skip: 'Omitir guía', skipVideo: 'Omitir vídeo', skipAndDone: 'Omitir y finalizar',
     step: (current, total) => `Paso ${current} de ${total}`, videoLabel: (title) => `Vídeo guía: ${title}`,
     steps: [
-      { title: 'Explora Showcase', description: 'Descubre demostraciones reales de Jev por caso de uso, busca en toda la colección y consulta cada vídeo junto a su publicación original.' },
-      { title: 'Promociona tu producto', description: 'Muestra tu producto en el catálogo, Showcase, el README de GitHub y la barra lateral mediante el nuevo panel de patrocinio.' },
+      { title: 'Promociona tu producto', description: 'Muestra tu producto en el catálogo, el README de GitHub y la barra lateral mediante el nuevo panel de patrocinio.' },
     ],
   },
   'pt-br': {
     eyebrow: 'Novidades no bestjev', next: 'Próximo', done: 'Concluir', skip: 'Pular guia', skipVideo: 'Pular vídeo', skipAndDone: 'Pular e concluir',
     step: (current, total) => `Etapa ${current} de ${total}`, videoLabel: (title) => `Vídeo-guia: ${title}`,
     steps: [
-      { title: 'Explore o Showcase', description: 'Navegue por demonstrações reais do Jev por caso de uso, pesquise a coleção completa e veja cada vídeo com a publicação original.' },
-      { title: 'Promova seu produto', description: 'Exiba seu produto no catálogo, no Showcase, no README do GitHub e na barra lateral por meio do novo painel de patrocínio.' },
+      { title: 'Promova seu produto', description: 'Exiba seu produto no catálogo, no no README do GitHub e na barra lateral por meio do novo painel de patrocínio.' },
     ],
   },
 };
@@ -85,12 +77,6 @@ const copy = copyByLocale[locale];
 const steps = [
   {
     ...copy.steps[0],
-    videoUrl: 'https://media.jevbest.com/onboarding/showcase-demo.mp4',
-    posterUrl: 'https://media.jevbest.com/onboarding/showcase-demo-cover.jpg',
-    Icon: Clapperboard,
-  },
-  {
-    ...copy.steps[1],
     videoUrl: 'https://media.jevbest.com/onboarding/sponsor-demo.mp4',
     posterUrl: 'https://media.jevbest.com/onboarding/sponsor-demo-cover.jpg',
     Icon: Megaphone,

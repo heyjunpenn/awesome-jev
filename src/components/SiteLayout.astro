@@ -3,9 +3,7 @@ import { navigationCatalogStats, navigationCategories as catalogNavigationCatego
 import type { Sponsor } from '../data/sponsors';
 import { getMessages, localeConfig, locales, type Locale } from '../i18n';
 import { getChangelogMessages } from '../i18n/changelog';
-import { getShowcaseMessages } from '../i18n/showcase';
 import { getLocalePath } from '../i18n/config';
-import showcaseManifest from '../data/showcase.json';
 import NewFeatureTour from './NewFeatureTour.astro';
 import SponsorPanel from './SponsorPanel.astro';
 import SiteFooter from './SiteFooter.astro';
@@ -18,7 +16,6 @@ import {
   ChartNoAxesCombined,
   Check,
   ChevronDown,
-  Clapperboard,
   FlaskConical,
   Gamepad2,
   ListRestart,
@@ -30,17 +27,12 @@ import {
   X,
 } from '@lucide/astro';
 
-type ActiveSection = 'catalog' | 'showcase' | 'changelog' | 'sponsors';
-const defaultShowcaseCount = showcaseManifest.videos.length;
+type ActiveSection = 'catalog' | 'changelog' | 'sponsors';
 
 interface Props {
   locale: Locale;
   activeSection?: ActiveSection;
   activeFilter?: string;
-  showcaseCount?: number;
-  showcaseCategories?: Array<{ id: string; slug: string; name: string; count: number }>;
-  activeShowcaseCategory?: string;
-  activeShowcaseFilter?: string;
   mainClass?: string;
   sponsors?: Sponsor[];
 }
@@ -49,24 +41,18 @@ const {
   locale,
   activeSection = 'catalog',
   activeFilter = 'all',
-  showcaseCount = defaultShowcaseCount,
-  showcaseCategories = [],
-  activeShowcaseCategory,
-  activeShowcaseFilter,
   mainClass,
   sponsors = [],
 } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const messages = getMessages(locale);
 const changelogCopy = getChangelogMessages(locale);
-const showcaseCopy = getShowcaseMessages(locale);
 const categories = catalogNavigationCategories[locale];
 const repositoryUrl = process.env.GITHUB_REPOSITORY
   ? `https://github.com/${process.env.GITHUB_REPOSITORY}`
   : 'https://github.com/heyjunpenn/awesome-jev';
 const filterHref = (filter: string, targetLocale: Locale = locale) =>
   `${base}${getLocalePath(targetLocale)}${filter === 'all' ? '' : `projects/${filter}/`}`;
-const showcaseHref = (targetLocale: Locale = locale) => `${base}${getLocalePath(targetLocale)}showcase/`;
 const changelogHref = (targetLocale: Locale = locale) => `${base}${getLocalePath(targetLocale)}changelog/`;
 const sponsorsHref = (targetLocale: Locale = locale) => `${base}${getLocalePath(targetLocale)}sponsors/`;
 const categoryIcons = [BadgeCheck, Blocks, BrainCircuit, Workflow, Bot, MonitorSmartphone, AppWindow, Gamepad2, FlaskConical, ChartNoAxesCombined, ListTree];
@@ -75,23 +61,15 @@ const navigationCategories = categories
   .map((category, index) => ({ ...category, Icon: categoryIcons[index] ?? LayoutGrid }))
   .filter((category) => category.id !== jevLikeCategoryId);
 const catalogActive = activeSection === 'catalog';
-const showcaseActive = activeSection === 'showcase';
-const showcaseCategoryIcons = [Gamepad2, AppWindow, Clapperboard, ChartNoAxesCombined, Blocks, Workflow, ListTree, BadgeCheck, FlaskConical, MonitorSmartphone];
-const sidebarCategories = showcaseActive
-  ? showcaseCategories.map((category, index) => ({ ...category, Icon: showcaseCategoryIcons[index] ?? LayoutGrid }))
-  : navigationCategories;
-const sidebarCategoryLabel = showcaseActive ? showcaseCopy.categoryLabel : messages.nav.categories;
-const sidebarCategoryHref = (category: string) => showcaseActive
-  ? `${showcaseHref()}${showcaseCategories.find((candidate) => candidate.id === category)?.slug ?? ''}/`
-  : filterHref(category);
+const sidebarCategories = navigationCategories;
+const sidebarCategoryLabel = messages.nav.categories;
+const sidebarCategoryHref = filterHref;
 const brandHref = catalogActive ? '#overview' : filterHref('all');
 const localeHref = (candidate: Locale) => {
   if (catalogActive) return filterHref(activeFilter, candidate);
   if (activeSection === 'sponsors') return sponsorsHref(candidate);
   if (activeSection === 'changelog') return changelogHref(candidate);
-  return activeShowcaseFilter
-    ? `${showcaseHref(candidate)}${activeShowcaseFilter}/`
-    : showcaseHref(candidate);
+  return filterHref('all', candidate);
 };
 ---
 
@@ -108,7 +86,6 @@ const localeHref = (candidate: Locale) => {
     <div class="sidebar-primary">
       <nav class="side-nav primary-nav" aria-label={messages.nav.primary}>
         <a class:list={[catalogActive && activeFilter === 'all' && 'selected']} href={filterHref('all')} title={messages.nav.allProjects} aria-current={catalogActive && activeFilter === 'all' ? 'page' : undefined}><LayoutGrid class="nav-icon" size={17} stroke-width={1.8} /><span>{messages.nav.allProjects}</span><small>{navigationCatalogStats.projects}</small></a>
-        <a class:list={[activeSection === 'showcase' && 'selected']} href={showcaseHref()} title={showcaseCopy.navLabel} aria-current={activeSection === 'showcase' ? 'page' : undefined}><Clapperboard class="nav-icon" size={17} stroke-width={1.8} /><span>{showcaseCopy.navLabel}</span><small>{showcaseCount}</small></a>
         <a class:list={[activeSection === 'changelog' && 'selected']} href={changelogHref()} title={changelogCopy.navLabel} aria-current={activeSection === 'changelog' ? 'page' : undefined}><ListRestart class="nav-icon" size={17} stroke-width={1.8} /><span>{changelogCopy.navLabel}</span><small>{navigationCatalogStats.changelogDays}</small></a>
         <a href={repositoryUrl} title={messages.nav.githubRepository} target="_blank" rel="noreferrer" aria-label={messages.nav.githubRepository}>
           <svg class="nav-icon github-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -121,14 +98,13 @@ const localeHref = (candidate: Locale) => {
 
     <div class="sidebar-categories">
       <div class="category-nav-head"><span>{sidebarCategoryLabel}</span></div>
-      <nav class="category-nav" aria-label={showcaseActive ? showcaseCopy.categoryLabel : messages.nav.projectCategories}>
+      <nav class="category-nav" aria-label={messages.nav.projectCategories}>
         {sidebarCategories.map(({ Icon, ...category }) => (
           <a
-            class:list={[(catalogActive && activeFilter === category.id) || (showcaseActive && activeShowcaseCategory === category.id) ? 'selected' : undefined]}
+            class:list={[catalogActive && activeFilter === category.id && 'selected']}
+            aria-current={catalogActive && activeFilter === category.id ? 'page' : undefined}
             href={sidebarCategoryHref(category.id)}
             title={category.name}
-            aria-current={(catalogActive && activeFilter === category.id) || (showcaseActive && activeShowcaseCategory === category.id) ? 'page' : undefined}
-            data-showcase-category-source={showcaseActive ? category.id : undefined}
           >
             <Icon class="nav-icon" size={16} stroke-width={1.75} />
             <span>{category.name}</span>

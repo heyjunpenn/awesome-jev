@@ -2,14 +2,11 @@ import type { APIRoute } from 'astro';
 import { catalogStats, getCatalog } from '../lib/catalog';
 import { defaultLocale, localeConfig, locales, type Locale } from '../i18n';
 import { getLocalePath } from '../i18n/config';
-import { showcaseRouteSlugs } from '../i18n/showcase';
 
 const siteUrl = 'https://jevbest.com/';
 const categoryIds = getCatalog(defaultLocale).categories.map((category) => category.id);
 const localizedRoutes = [
   '',
-  'showcase/',
-  ...showcaseRouteSlugs.map((slug) => `showcase/${slug}/`),
   'changelog/',
   'sponsors/',
   'projects/today/',
@@ -17,9 +14,6 @@ const localizedRoutes = [
   ...categoryIds.map((categoryId) => `projects/${categoryId}/`),
 ];
 const highPriorityRoutes = new Set([
-  'showcase/',
-  'showcase/today/',
-  'showcase/this-week/',
   'changelog/',
   'sponsors/',
   'projects/today/',
