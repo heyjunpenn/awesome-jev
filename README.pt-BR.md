@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 992 verified open-source projects across 11 categories" width="100%"></a>
+  <a href="https://jevbest.com"><img src="public/readme/awesome-jev-hero.png" alt="Awesome Jev — 997 verified open-source projects across 11 categories" width="100%"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/verified_projects-992-1e63ff?style=flat-square" alt="992 verified projects">
+  <img src="https://img.shields.io/badge/verified_projects-997-1e63ff?style=flat-square" alt="997 verified projects">
   <img src="https://img.shields.io/badge/categories-11-111111?style=flat-square" alt="11 categories">
   <img src="https://img.shields.io/badge/languages-29-676767?style=flat-square" alt="29 languages">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1e63ff?style=flat-square" alt="License: MIT"></a>
@@ -25,7 +25,7 @@
 
 ## Sobre Jev impressionante
 
-Awesome Jev é um catálogo independente, mantido pela comunidade de **992 projectos de código aberto** construído com [Jev](https://typesafe.ai/), Sistema de IA TipoSafe Um modelo para decisões digitadas dentro do software. Não é afiliado ou endossado pelo TypeSafe IA.
+Awesome Jev é um catálogo independente, mantido pela comunidade de **997 projectos de código aberto** construído com [Jev](https://typesafe.ai/), Sistema de IA TipoSafe Um modelo para decisões digitadas dentro do software. Não é afiliado ou endossado pelo TypeSafe IA.
 
 > **O que torna este catálogo útil?**
 >
@@ -35,30 +35,26 @@ Awesome Jev é um catálogo independente, mantido pela comunidade de **992 proje
 
 - ✅ [Oficial](#oficial-6) — **6**
 - 📦 [SDKs & clientes](#sdks-clientes-61) — **61**
-- 🧠 [Modelos Jev-like](#jev-like-models) — **85**
+- 🧠 [Modelos Jev-like](#jev-like-models) — **87**
 - 🧩 [Quadros e integrações](#quadros-e-integrações-89) — **89**
-- 🤖 [Ferramentas de agente](#ferramentas-de-agente-238) — **238**
+- 🤖 [Ferramentas de agente](#ferramentas-de-agente-239) — **239**
 - 🖥️ [Navegador & uso do computador](#navegador-uso-do-computador-77) — **77**
 - 🪟 [Aplicações](#aplicações-137) — **137**
 - 🎮 [Jogos e simulações](#jogos-e-simulações-73) — **73**
 - 🧪 [Demos e ambientes de teste](#demos-playgrounds-67) — **67**
-- 📊 [Benchmarks & pesquisa](#benchmarks-pesquisa-117) — **117**
+- 📊 [Benchmarks & pesquisa](#benchmarks-pesquisa-119) — **119**
 - 📚 [Outras listas](#outras-listas-42) — **42**
 
-Este README é um instantâneo datado de **992 repositórios públicos únicos do GitHub**. As estrelas foram capturadas em **2026-09-18–2026-10-19** para descoberta, não classificação; verificar comportamento atual, atividade e licenciamento a montante.
+Este README é um instantâneo datado de **997 repositórios públicos únicos do GitHub**. As estrelas foram capturadas em **2026-09-18–2026-11-12** para descoberta, não classificação; verificar comportamento atual, atividade e licenciamento a montante.
 
 ## Adicionado hoje
 
 <details open>
-<summary><strong>11 projetos adicionados em 19 de outubro de 2026</strong></summary>
+<summary><strong>5 projetos adicionados em 2026-11-12</strong></summary>
 
-- **SDKs & clientes (1):** [pydecide](https://github.com/gopaljigaur/decide)
-- **Modelos Jev-like (2):** [Phocinae-Largha-150M-v1](https://github.com/Phocinae/Phocinae-Largha-150M-v1), [VideoJev](https://github.com/MCG-NJU/VideoJev)
-- **Quadros e integrações (1):** [vd-jev](https://github.com/ondata/vd-jev)
-- **Ferramentas de agente (2):** [agent-reflex](https://github.com/psygreg/agent-reflex), [local-decider](https://github.com/pusucip25/local-decider)
-- **Aplicações (3):** [Jev RAG](https://github.com/aifabrice/jev-rag), [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline), [DeciFlow](https://github.com/call518/DeciFlow)
-- **Demos & playgrounds (1):** [Trio-Spark demos](https://github.com/machinefi/trio-spark)
-- **Benchmarks & pesquisa (1):** [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails)
+- **Modelos Jev-like (2):** [Flide](https://github.com/OmniJev/Flide), [kneejerk](https://github.com/moudrkat/kneejerk)
+- **Ferramentas de agente (1):** [jev-judge](https://github.com/00200200/jev-judge)
+- **Benchmarks & pesquisa (2):** [jev-multilingual-benchmark](https://github.com/webmaster-ramos/jev-multilingual-benchmark), [VerdictAD](https://github.com/sgstq0811/VerdictAD-Jev-AD)
 
 </details>
 
@@ -141,7 +137,7 @@ Este README é um instantâneo datado de **992 repositórios públicos únicos d
 
 <a id="jev-like-models"></a>
 
-### Modelos Jev-like (85)
+### Modelos Jev-like (87)
 
 | Projeto | Stars | Linguagem | Adicionado | Descrição |
 |---|---:|---|---|---|
@@ -154,6 +150,7 @@ Este README é um instantâneo datado de **992 repositórios públicos únicos d
 | [Jeff](https://github.com/firelex/jeff) | ★ 1,052 | Python | 2026-09-30 | Ajustes locais de Qwen3.5 e Gemma 4 com API compatível com Jev para decisões tipadas Choice, Noul e Score em uma única passagem. |
 | [LocalJev](https://github.com/githubnext/localjev) | ★ 662 | TypeScript | 2026-09-21 | API System One local compatível com Jev que converte perguntas tipadas em prompts de classificação e probabilidades do DiffusionGemma. |
 | [von](https://github.com/wfzyx/von) | ★ 507 | Python | 2026-09-23 | O modelo de decisão System One de código aberto. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev. |
+| [Flide](https://github.com/OmniJev/Flide) | ★ 451 | Python | 2026-11-12 | Motor de inferência que disponibiliza modelos abertos de decisão no estilo Jev pela API /v1/systemone. |
 | [Simple Jev](https://github.com/featherless-ai/simple-jev) | ★ 429 | Python | 2026-09-21 | Servidor semelhante ao Jev com modelos abertos que lê logits do próximo token para retornar escolhas, pontuações e julgamentos tipados. |
 | [deepopen](https://github.com/deepopen-com/deepopen) | ★ 383 | Python | 2026-09-23 | 非自回归System 1决策引擎，专为结构化类型决策场景设计 DeepOpen Mecanismo de decisão do System 1 multilíngue e não autorregressivo. |
 | [laya](https://github.com/receptron/laya) | ★ 302 | TypeScript | 2026-09-23 | Execute Laya, o modelo de decisão System-1 de código aberto compatível com Jev, de Node.js/TypeScript via ONNX Runtime. |
@@ -227,6 +224,7 @@ Este README é um instantâneo datado de **992 repositórios públicos únicos d
 | [OneJev](https://github.com/OmniJev/OneJev) | ★ 4 | Python | 2026-09-28 | Modelo System One multimodal aberto em quatro tamanhos que responde perguntas tipadas sobre capturas, imagens, vídeo ou texto em uma única passagem. |
 | [jev-local](https://github.com/us/jev-local) | ★ 3 | Python | 2026-09-22 | Servidor de avaliação local compatível com Jev: POST /v1/systemone com noul/choice/score digitado, pesos abertos, sem lista de espera Nenhum arquivo de licença em nível de repositório foi encontrado durante a revisão. |
 | [TinyJev](https://github.com/ankit-aglawe/tinyjev) | ★ 3 | Python | 2026-09-23 | Modelo local de decisões tipadas de 596 M com pesos próprios, suporte a Choice, Score e Noul e endpoint System One compatível com Jev. |
+| [kneejerk](https://github.com/moudrkat/kneejerk) | ★ 2 | C++ | 2026-11-12 | Biblioteca C sobre llama.cpp que incorpora modelos de decisão no estilo Jev em aplicativos e retorna respostas tipadas no formato System One. |
 | [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) | ★ 1 | Python | 2026-09-23 | Servidor independente de decisões tipadas para texto e imagens com DiffusionGemma e SGLang, playground de desenho e artefatos públicos de avaliação. |
 | [TetraJev](https://github.com/FeiLiuEM/tetrajev) | ★ 1 | Python | 2026-09-30 | Pilha local de decisões que combina quatro leituras de dois modelos abertos congelados e usa gates de concordância e calibração para responder ou se abster. |
 | [Verdict](https://github.com/Manavarya09/verdict) | ★ 0 | Python | 2026-09-25 | Modelo multilíngue independente com respostas calibradas, abstenção e API compatível com Jev. |
@@ -325,7 +323,7 @@ Este README é um instantâneo datado de **992 repositórios públicos únicos d
 | [JEV Book Tags](https://github.com/iamjonatha/jev-book-tags) | ★ 0 | Python | 2026-10-04 | Plugin do Calibre em que Jev Noul avalia gêneros, assuntos e suficiência de evidências, com limiares de probabilidade e revisão antes de aplicar etiquetas. |
 | [vd-jev](https://github.com/ondata/vd-jev) | ★ 0 | Python | 2026-10-19 | Plugin do VisiData que envia cada linha de texto ao Jev ou outro modelo de decisões do OpenRouter e adiciona rótulos, pontuações, probabilidades e confiança como colunas. |
 
-### Ferramentas de agente (238)
+### Ferramentas de agente (239)
 
 | Projeto | Stars | Linguagem | Adicionado | Descrição |
 |---|---:|---|---|---|
@@ -343,7 +341,7 @@ Este README é um instantâneo datado de **992 repositórios públicos únicos d
 | [mu](https://github.com/qybaihe/mu) | ★ 325 | TypeScript | 2026-09-30 | Ambiente para agentes de código em que Jev ou um juiz Laya local controla decisões delimitadas como retenção de contexto, aprovações, roteamento, desvio e compartilhamento entre agentes. |
 | [Keel](https://github.com/codejunkie99/keel) | ★ 314 | Rust | 2026-09-30 | Ambiente local-first de programação em que Jev ou Laya seleciona uma rota elegível de agente/modelo e o host valida cada escolha antes da execução. |
 | [jev-search](https://github.com/superagents-lab/jev-search) | ★ 244 | TypeScript | 2026-09-19 | Pesquise na web com o Jev do TypeSafe: seleção de fontes, compreensão de consultas e classificação de relevância. Construído com Search1API. |
-| [decapod](https://github.com/DecapodLabs/decapod) | ★ 233 | Rust | 2026-09-23 | Durante a avaliação de garantia, Jev estima a probabilidade de uma trajetória de agente proposta satisfazer seu objetivo limitado. |
+| [decapod](https://github.com/DecapodLabs/decapod) | ★ 233 | Rust | 2026-09-23 | Infraestrutura de fluxos de agentes que integra motores como Jev e Laya para avaliar decisões tipadas. |
 | [Albatross](https://github.com/morganlinton/Albatross) | ★ 232 | Rust | 2026-09-23 | Agente de codificação de IA de código aberto, primeiro terminal, com roteamento multimodelo totalmente transparente. Local (Ollama, LM Studio, MLX, llama.cpp) ou nuvem, suas chaves, uma TUI. Nenhuma caixa preta. |
 | [jev-router (gargpratyush)](https://github.com/gargpratyush/jev-router) | ★ 214 | JavaScript | 2026-09-19 | Rota para o modelo mais barato em código claude para sua tarefa usando jev-router. |
 | [jev-gateway](https://github.com/vinilana/jev-gateway) | ★ 181 | TypeScript | 2026-09-23 | Uma maneira fácil de usar jev com seu agente de codificação para raciocínio de chamada de ferramenta. |
@@ -536,6 +534,7 @@ Este README é um instantâneo datado de **992 repositórios públicos únicos d
 | [Jev Deep Research](https://github.com/sunyasheng/JevDeepResearch) | ★ 1 | TypeScript | 2026-09-30 | Integração para agentes de pesquisa em que Jev localiza regiões relevantes com Choice e Noul e o código devolve trechos literais para verificação. |
 | [omp-statify](https://github.com/d3d0n/omp-statify) | ★ 1 | TypeScript | 2026-09-30 | Extensão do Oh-my-pi que pede ao Jev julgamentos Noul de relevância em lote sobre saídas de ferramentas e texto anterior do assistente antes do contexto do modelo principal, com filtragem opcional e originais recuperáveis. Nenhum arquivo de licença em nível de repositório foi encontrado na revisão. |
 | [Jev Decision Gate](https://github.com/f-tiger/jev-decision-gate) | ★ 1 | Python | 2026-10-04 | CLI, servidor MCP e skill que usam Jev Choice para classificar tipo de Issue, módulo e suficiência de informação, com políticas calibradas de aceitação/revisão e regras offline. |
+| [jev-judge](https://github.com/00200200/jev-judge) | ★ 1 | Python | 2026-11-12 | Executor de testes que avalia saídas registradas de LLM com asserções Jev e relatórios CI, com simulação offline e limitações de interpretação documentadas. |
 | [pi-agent-foreman](https://github.com/alexshpunt/pi-agent-foreman) | ★ 0 | TypeScript | 2026-09-19 | Enviar Os agentes Pi voltam ao trabalho quando param antes do trabalho terminar. |
 | [switchboard](https://github.com/aniruddh-krovvidi/switchboard) | ★ 0 | Python | 2026-09-19 | Guardrail + roteador modelo para gateways LLM no modelo Jev do TypeSafe (System One), com uma avaliação independente da precisão/calibração/latency. Stdlib Python. |
 | [typesafe-demo-mcp](https://github.com/bestagentkits/typesafe-demo-mcp) | ★ 0 | TypeScript | 2026-09-19 | Servidor MCP expondo TypeSafe System Um julgamento (noul, escolha, pontuação) como ferramentas de agente. |
@@ -942,7 +941,7 @@ Este README é um instantâneo datado de **992 repositórios públicos únicos d
 | [Magic Jev Ball (mikecann)](https://github.com/mikecann/magic-jev-ball) | ★ 0 | TypeScript | 2026-09-25 | Bola 8 mágica 3D no Convex em que Jev pontua vinte respostas clássicas e exibe suas probabilidades. |
 | [Jev Hub](https://github.com/netcode001/jev) | ★ 0 | Python | 2026-09-30 | Rastreador bilíngue do Jev e playground interativo cujos modelos enviam perguntas tipadas Choice, Score e Noul por um proxy da Cloudflare e exibem resultados estruturados. Nenhum arquivo de licença em nível de repositório foi encontrado na revisão. |
 
-### Benchmarks & pesquisa (117)
+### Benchmarks & pesquisa (119)
 
 | Projeto | Stars | Linguagem | Adicionado | Descrição |
 |---|---:|---|---|---|
@@ -973,6 +972,7 @@ Este README é um instantâneo datado de **992 repositórios públicos únicos d
 | [open-alternative-jev](https://github.com/ikermoel/open-alternative-jev) | ★ 16 | Python | 2026-09-19 | Alternativa aberta ao Jev: decisões calibradas e digitadas de qualquer peso aberto LLM em um passe para frente (HF + vLLM), com benchmarks. |
 | [openjev (zhihz)](https://github.com/zhihz/openjev) | ★ 16 | Python | 2026-09-19 | Decisões de probabilidade bilíngues locais de contexto, perguntas e respostas de candidatos. Visualização de pesquisa independente inspirada no TypeSafe Jev. |
 | [jeval](https://github.com/rlaope/jeval) | ★ 16 | Python | 2026-09-23 | Mede quanto realmente vale a confiança do seu classificador Jev e define a linha de transferência humana a partir do custo de um erro. |
+| [VerdictAD](https://github.com/sgstq0811/VerdictAD-Jev-AD) | ★ 16 | Python | 2026-11-12 | Detecção industrial de anomalias com poucos exemplos que usa decisões visuais tipadas do Clef-Flash para refinar pontuações e mapas regionais. |
 | [system-one](https://github.com/sgoedecke/system-one) | ★ 14 | Python | 2026-09-19 | Inferência de escolha de um único token para modelos de linguagem aberta, compatível com TypeSafe. |
 | [jev-rag-benchmark](https://github.com/erendikmenn/jev-rag-benchmark) | ★ 14 | Python | 2026-09-23 | Benchmark reproduzível para medir Jev reclassificando qualidade, latência e custo em RAG. |
 | [system-one-open](https://github.com/mithalouni/system-one-open) | ★ 13 | Python | 2026-09-19 | Replica aberta do Jev do TypeSafe: decisões calibradas digitadas em um passe para frente, em Gemma 4 E2B / Gemma 3 270M (Modal). |
@@ -1063,6 +1063,7 @@ Este README é um instantâneo datado de **992 repositórios públicos únicos d
 | [Jev no ENEM](https://github.com/patryckalves/jev-no-enem) | ★ 0 | Python | 2026-09-23 | Avaliação reproduzível de Jev Choice em 182 questões válidas do ENEM 2025, com resultados brutos e análise de precisão, calibração e latência. |
 | [jev-skillbench](https://github.com/MohibShaikh/jev-skillbench) | ★ 0 | Python | 2026-09-24 | Benchmark do Jev como um detector de habilidade de agente malicioso no MalSkillBench com avaliação de verificação e escalação. |
 | [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) | ★ 0 | Python | 2026-10-19 | Benchmark reproduzível de guardrails que compara Jev e outros sistemas com verificações Noul e limiar fixo de bloqueio de 0,5, com contratos públicos de pontuação e resultados dos autores. |
+| [jev-multilingual-benchmark](https://github.com/webmaster-ramos/jev-multilingual-benchmark) | ★ 0 | Python | 2026-11-12 | Benchmark reproduzível de moderação multilíngue que compara decisões tipadas do Jev com modelos de chat e proteção em nomes e comentários. |
 
 ### Outras listas (42)
 
